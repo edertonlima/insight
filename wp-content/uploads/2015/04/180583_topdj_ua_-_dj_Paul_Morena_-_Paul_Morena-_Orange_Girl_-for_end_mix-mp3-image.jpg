@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8" />
+			<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+			<link rel="profile" href="http://gmpg.org/xfn/11" />
+	<link rel="pingback" href="http://blessing.ancorathemes.com/xmlrpc.php" />
+    		<link rel="icon" type="image/x-icon" href="http://blessing.ancorathemes.com/wp-content/themes/blessing/skins/blessing/images/favicon.ico" />
+	    <title>Blessing</title>
+<link rel="alternate" type="application/rss+xml" title="Blessing &raquo; Feed" href="http://blessing.ancorathemes.com/?feed=rss2" />
+<link rel="alternate" type="application/rss+xml" title="Blessing &raquo; Comments Feed" href="http://blessing.ancorathemes.com/?feed=comments-rss2" />
+<link rel="alternate" type="text/calendar" title="Blessing &raquo; iCal Feed" href="http://blessing.ancorathemes.com?post_type=tribe_events/?ical=1" />
+<link rel="alternate" type="application/rss+xml" title="Blessing &raquo; Homepage Comments Feed" href="http://blessing.ancorathemes.com/?feed=rss2&#038;page_id=831" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/blessing.ancorathemes.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.2.7"}};
+			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='rs-plugin-settings-css'  href='http://blessing.ancorathemes.com/wp-content/plugins/revslider/rs-plugin/css/settings.css?ver=4.6.93' type='text/css' media='all' />
+<style id='rs-plugin-settings-inline-css' type='text/css'>
+.tp-caption a{color:#ff7302;text-shadow:none;-webkit-transition:all 0.2s ease-out;-moz-transition:all 0.2s ease-out;-o-transition:all 0.2s ease-out;-ms-transition:all 0.2s ease-out}.tp-caption a:hover{color:#ffa902}
+</style>
+<link rel='stylesheet' id='woocommerce-layout-css'  href='//blessing.ancorathemes.com/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=2.3.9' type='text/css' media='all' />
+<link rel='stylesheet' id='woocommerce-smallscreen-css'  href='//blessing.ancorathemes.com/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=2.3.9' type='text/css' media='only screen and (max-width: 768px)' />
+<link rel='stylesheet' id='woocommerce-general-css'  href='//blessing.ancorathemes.com/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=2.3.9' type='text/css' media='all' />
+<link rel='stylesheet' id='theme-font-Cinzel-css'  href='http://fonts.googleapis.com/css?family=Cinzel:400,700&#038;subset=latin,latin-ext,cyrillic,cyrillic-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='theme-font-Quattrocento-Sans-css'  href='http://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400italic,700,700italic&#038;subset=latin,latin-ext,cyrillic,cyrillic-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='ancora-fontello-style-css'  href='http://blessing.ancorathemes.com/wp-content/themes/blessing/css/fontello/css/fontello.css' type='text/css' media='all' />
+<link rel='stylesheet' id='ancora-main-style-css'  href='http://blessing.ancorathemes.com/wp-content/themes/blessing/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='ancora-shortcodes-style-css'  href='http://blessing.ancorathemes.com/wp-content/themes/blessing/fw/shortcodes/shortcodes.css' type='text/css' media='all' />
+<link rel='stylesheet' id='ancora-animation-style-css'  href='http://blessing.ancorathemes.com/wp-content/themes/blessing/fw/css/core.animation.css' type='text/css' media='all' />
+<link rel='stylesheet' id='tribe-style-css'  href='http://blessing.ancorathemes.com/wp-content/themes/blessing/css/tribe-style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='ancora-skin-style-css'  href='http://blessing.ancorathemes.com/wp-content/themes/blessing/skins/blessing/skin.css' type='text/css' media='all' />
+<link rel='stylesheet' id='ancora-custom-style-css'  href='http://blessing.ancorathemes.com/wp-content/themes/blessing/fw/css/custom-style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='ancora-responsive-style-css'  href='http://blessing.ancorathemes.com/wp-content/themes/blessing/css/responsive.css' type='text/css' media='all' />
+<link rel='stylesheet' id='theme-skin-responsive-style-css'  href='http://blessing.ancorathemes.com/wp-content/themes/blessing/skins/blessing/skin-responsive.css' type='text/css' media='all' />
+<link rel='stylesheet' id='mediaelement-css'  href='http://blessing.ancorathemes.com/wp-includes/js/mediaelement/mediaelementplayer.min.css?ver=2.16.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-mediaelement-css'  href='http://blessing.ancorathemes.com/wp-includes/js/mediaelement/wp-mediaelement.css?ver=4.2.7' type='text/css' media='all' />
+<link rel='stylesheet' id='ancora-customizer-style-css'  href='http://blessing.ancorathemes.com/wp-content/themes/blessing/fw/core/core.customizer/front.customizer.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='js_composer_front-css'  href='http://blessing.ancorathemes.com/wp-content/plugins/js_composer/assets/css/js_composer.css?ver=4.5.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://blessing.ancorathemes.com/wp-includes/js/jquery/jquery.js?ver=1.11.2'></script>
+<script type='text/javascript' src='http://blessing.ancorathemes.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://blessing.ancorathemes.com/wp-content/plugins/revslider/rs-plugin/js/jquery.themepunch.tools.min.js?ver=4.6.93'></script>
+<script type='text/javascript' src='http://blessing.ancorathemes.com/wp-content/plugins/revslider/rs-plugin/js/jquery.themepunch.revolution.min.js?ver=4.6.93'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","i18n_view_cart":"View Cart","cart_url":"http:\/\/blessing.ancorathemes.com\/?page_id=5","is_cart":"","cart_redirect_after_add":"no"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='//blessing.ancorathemes.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=2.3.9'></script>
+<script type='text/javascript' src='http://blessing.ancorathemes.com/wp-content/plugins/js_composer/assets/js/vendors/woocommerce-add-to-cart.js?ver=4.5.1'></script>
+<script type='text/javascript' src='http://blessing.ancorathemes.com/wp-content/themes/blessing/skins/blessing/skin.customizer.js'></script>
+<script type='text/javascript' src='http://blessing.ancorathemes.com/wp-content/themes/blessing/skins/blessing/add_title_to_link.js'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://blessing.ancorathemes.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://blessing.ancorathemes.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.2.7" />
+<meta name="generator" content="WooCommerce 2.3.9" />
+<link rel='canonical' href='http://blessing.ancorathemes.com/' />
+<link rel='shortlink' href='http://blessing.ancorathemes.com/' />
+		<script type="text/javascript">
+			jQuery(document).ready(function() {
+				// CUSTOM AJAX CONTENT LOADING FUNCTION
+				var ajaxRevslider = function(obj) {
+				
+					// obj.type : Post Type
+					// obj.id : ID of Content to Load
+					// obj.aspectratio : The Aspect Ratio of the Container / Media
+					// obj.selector : The Container Selector where the Content of Ajax will be injected. It is done via the Essential Grid on Return of Content
+					
+					var content = "";
+
+					data = {};
+					
+					data.action = 'revslider_ajax_call_front';
+					data.client_action = 'get_slider_html';
+					data.token = '7ef6529762';
+					data.type = obj.type;
+					data.id = obj.id;
+					data.aspectratio = obj.aspectratio;
+					
+					// SYNC AJAX REQUEST
+					jQuery.ajax({
+						type:"post",
+						url:"http://blessing.ancorathemes.com/wp-admin/admin-ajax.php",
+						dataType: 'json',
+						data:data,
+						async:false,
+						success: function(ret, textStatus, XMLHttpRequest) {
+							if(ret.success == true)
+								content = ret.data;								
+						},
+						error: function(e) {
+							console.log(e);
+						}
+					});
+					
+					 // FIRST RETURN THE CONTENT WHEN IT IS LOADED !!
+					 return content;						 
+				};
+				
+				// CUSTOM AJAX FUNCTION TO REMOVE THE SLIDER
+				var ajaxRemoveRevslider = function(obj) {
+					return jQuery(obj.selector+" .rev_slider").revkill();
+				};
+
+				// EXTEND THE AJAX CONTENT LOADING TYPES WITH TYPE AND FUNCTION
+				var extendessential = setInterval(function() {
+					if (jQuery.fn.tpessential != undefined) {
+						clearInterval(extendessential);
+						if(typeof(jQuery.fn.tpessential.defaults) !== 'undefined') {
+							jQuery.fn.tpessential.defaults.ajaxTypes.push({type:"revslider",func:ajaxRevslider,killfunc:ajaxRemoveRevslider,openAnimationSpeed:0.3});   
+							// type:  Name of the Post to load via Ajax into the Essential Grid Ajax Container
+							// func: the Function Name which is Called once the Item with the Post Type has been clicked
+							// killfunc: function to kill in case the Ajax Window going to be removed (before Remove function !
+							// openAnimationSpeed: how quick the Ajax Content window should be animated (default is 0.3)
+						}
+					}
+				},30);
+			});
+		</script>
+			<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+<meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress."/>
+<!--[if IE 8]><link rel="stylesheet" type="text/css" href="http://blessing.ancorathemes.com/wp-content/plugins/js_composer/assets/css/vc-ie8.css" media="screen"><![endif]--><style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1431955086890{margin-top: 1.5em !important;padding-bottom: 4.5em !important;}.vc_custom_1432042877515{margin-top: 0.5em !important;}.vc_custom_1432042943665{padding-top: 5.5em !important;padding-bottom: 5em !important;background-image: url(http://blessing.ancorathemes.com/wp-content/uploads/2015/05/white_bg.jpg?id=332) !important;}.vc_custom_1432043250149{margin-top: 9em !important;}.vc_custom_1431341298262{margin-top: 1em !important;}.vc_custom_1431341652306{margin-top: 3em !important;margin-bottom: 3em !important;}</style><noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript></head>
+
+
+<body class="home page page-id-831 page-template-default ancora_body body_style_fullscreen body_filled theme_skin_blessing article_style_stretch layout_single-standard template_single-standard top_panel_style_dark top_panel_opacity_solid top_panel_show top_panel_above menu_center user_menu_hide sidebar_hide wpb-js-composer js-comp-ver-4.5.1 vc_responsive tribe-theme-blessing page-template-page-php">
+	
+	
+	<a name="toc_home" id="toc_home" class="sc_anchor" title="Home" data-description="&lt;i&gt;Return to Home&lt;/i&gt; - &lt;br&gt;navigate to home page of the site" data-icon="icon-home-1" data-url="http://blessing.ancorathemes.com" data-separator="yes"></a><a name="toc_top" id="toc_top" class="sc_anchor" title="To Top" data-description="&lt;i&gt;Back to top&lt;/i&gt; - &lt;br&gt;scroll to top of the page" data-icon="icon-angle-double-up" data-url="" data-separator="yes"></a>
+	<div class="body_wrap">
+
+		
+		<div class="page_wrap">
+			
+<div class="top_panel_fixed_wrap"></div>
+
+<header class="top_panel_wrap bg_tint_dark"  style="background: ">
+
+
+    
+    <div class="border_bottom_grey font_086em display_none">
+        <div class="content_wrap clearfix top_div">
+            <div class="inline bottom">
+                Helping Families and Friends Honor Their Loved One            </div>
+            <div class="inline bottom side-right">
+                                    <div class="menu_user_area menu_user_left menu_user_contact_area">13005 Greenville Avenue California, TX 70240</div>
+                            </div>
+            <div class="inline side-right search_s">
+                <div class="search_wrap search_style_regular search_ajax" title="Open/close search form">
+					<a href="#" class="search_icon icon-search-2"></a>
+
+					<div class="search_form_wrap">
+						<form role="search" method="get" class="search_form" action="http://blessing.ancorathemes.com/">
+							<button type="submit" class="search_submit" data-text="Search" title="Start search">Search</button>
+							<input type="text" class="search_field" placeholder="" value="" name="s" title="" />
+						</form>
+					</div>
+
+					<div class="search_results widget_area bg_tint_light"><a class="search_results_close icon-delete-2"></a><div class="search_results_content"></div></div>
+
+			</div>            </div>
+        </div>
+    </div>
+
+    <div class="menu_main_wrap logo_ with_text">
+        <div class="content_wrap clearfix display_none">
+
+            <div class="logo">
+                <div class="logo_img">
+                    <a href="http://blessing.ancorathemes.com">
+                        <img src="http://blessing.ancorathemes.com/wp-content/uploads/2015/04/logo.png" class="logo_main" alt=""><img src="http://blessing.ancorathemes.com/wp-content/uploads/2015/04/logo.png" class="logo_fixed" alt="">                    </a>
+                </div>
+                <div class="contein_logo_text">
+                    <a href="http://blessing.ancorathemes.com">
+                        <span class="logo_text">BLESSING</span>                        <span class="logo_slogan">Funeral Home and Cemetry</span>                    </a>
+                </div>
+            </div>
+                <a href="#" class="menu_main_responsive_button icon-menu-1"></a>
+                <div class="inline image side-right marg_top_2em">
+                    <div class="inline">
+                        <img src="http://blessing.ancorathemes.com/wp-content/themes/blessing/skins/blessing/images/phone.jpg" alt="">
+                        <div class="side-right marg_null marg_top">
+                            <h4>(810) 123 4567</h4>
+                            <span class="font_086em">Get in touch with us</span>
+                        </div>
+                    </div>
+                    <div class="inline pad_left_2em">
+                        <img src="http://blessing.ancorathemes.com/wp-content/themes/blessing/skins/blessing/images/flower.jpg" alt="">
+                        <div class="side-right marg_null marg_top">
+                            <h4>Send Flowers</h4>
+                            <span class="font_086em">Greet Your loved one</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <nav role="navigation" class="menu_main_nav_area">
+                <ul id="menu_main" class="menu_main_nav"><li id="menu-item-8" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-home current-menu-ancestor current-menu-parent menu-item-has-children menu-item-8"><a href="http://blessing.ancorathemes.com/">Home</a>
+<ul class="sub-menu">
+	<li id="menu-item-875" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-831 current_page_item menu-item-875"><a title="Funeral Home" href="http://blessing.ancorathemes.com/">Funeral Home</a></li>
+	<li id="menu-item-901" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-901"><a title="Cemetary" href="http://blessing.ancorathemes.com/?page_id=876">Cemetry</a></li>
+</ul>
+</li>
+<li id="menu-item-827" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-827"><a href="http://blessing.ancorathemes.com/?cat=29">Obituaries</a></li>
+<li id="menu-item-9" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-9"><a title="Services" href="http://blessing.ancorathemes.com/?page_id=2">Services</a>
+<ul class="sub-menu">
+	<li id="menu-item-485" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-485"><a title="Plan Ahead" href="http://blessing.ancorathemes.com/?page_id=448">Plan Ahead</a></li>
+	<li id="menu-item-359" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-359"><a title="About Us" href="http://blessing.ancorathemes.com/?page_id=341">About Us</a></li>
+	<li id="menu-item-484" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-484"><a title="Our Staff" href="http://blessing.ancorathemes.com/?page_id=481">Our Staff</a></li>
+	<li id="menu-item-607" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-607"><a title="Our History" href="http://blessing.ancorathemes.com/?page_id=598">Our History</a></li>
+	<li id="menu-item-37" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37"><a title="Typography" href="http://blessing.ancorathemes.com/?page_id=29">Typography</a></li>
+	<li id="menu-item-209" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-209"><a title="Shortcodes" href="http://blessing.ancorathemes.com/?page_id=204">Shortcodes</a></li>
+	<li id="menu-item-874" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-874"><a title="Prices" href="http://blessing.ancorathemes.com/?page_id=424">Prices</a>
+	<ul class="sub-menu">
+		<li id="menu-item-437" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-437"><a title="Price table" href="http://blessing.ancorathemes.com/?page_id=424">Price table</a></li>
+		<li id="menu-item-937" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-937"><a title="Price calculator" href="http://blessing.ancorathemes.com/?page_id=907">Price calculator</a></li>
+	</ul>
+</li>
+	<li id="menu-item-1178" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1178"><a href="#">Page</a>
+	<ul class="sub-menu">
+		<li id="menu-item-601" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-601"><a title="404" href="http://blessing.ancorathemes.com/?page_id=299">404</a></li>
+		<li id="menu-item-1293" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1293"><a href="http://blessing.ancorathemes.com/?page_id=1258">Support</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-906" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-906"><a title="Grief &amp; Healing" href="http://blessing.ancorathemes.com/?page_id=828">Grief &#038; Healing</a></li>
+<li id="menu-item-1200" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1200"><a title="Memorials" href="http://blessing.ancorathemes.com/?cat=49">Memorials</a></li>
+<li id="menu-item-967" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-967"><a title="Flowers &amp; Gifts" href="http://blessing.ancorathemes.com/?product_cat=products">Flowers &#038; Gifts</a></li>
+<li id="menu-item-339" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-339"><a title="Contact Us" href="http://blessing.ancorathemes.com/?page_id=304">Contact Us</a></li>
+<li id="menu-item-381" class="donation_grey menu-item menu-item-type-post_type menu-item-object-page menu-item-381"><a title="Make a Donation" href="http://blessing.ancorathemes.com/?page_id=366">Make a Donation</a></li>
+</ul>            </nav>
+        </div>
+
+</header>
+		<section class="slider_wrap slider_fullwide slider_engine_revo slider_alias_test">
+			
+<div id="rev_slider_2_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" style="margin:0px auto;background-color:#E9E9E9;padding:0px;margin-top:0px;margin-bottom:0px;max-height:520px;">
+<!-- START REVOLUTION SLIDER 4.6.93 fullwidth mode -->
+	<div id="rev_slider_2_1" class="rev_slider fullwidthabanner" style="display:none;max-height:520px;height:520px;">
+<ul>	<!-- SLIDE  -->
+	<li data-transition="fade" data-slotamount="7" data-masterspeed="300"  data-saveperformance="off" >
+		<!-- MAIN IMAGE -->
+		<img src="http://blessing.ancorathemes.com/wp-content/uploads/2015/04/11.jpg"  alt="11"  data-bgposition="center top" data-kenburns="on" data-duration="8000" data-ease="Power0.easeIn" data-bgfit="100" data-bgfitend="115" data-bgpositionend="center top">
+		<!-- LAYERS -->
+
+		<!-- LAYER NR. 1 -->
+		<div class="tp-caption bigtextslider tp-fade tp-resizeme" 
+			 data-x="63" 
+			 data-y="80"  
+			data-speed="300" 
+			data-start="500" 
+			data-easing="Power3.easeInOut" 
+			data-splitin="none" 
+			data-splitout="none" 
+			data-elementdelay="0.1" 
+			data-endelementdelay="0.1" 
+			 data-endspeed="300" 
+
+			style="z-index: 5; max-width: auto; max-height: auto; white-space: nowrap;">Let Us Lend<br>
+a Helping Hand 
+		</div>
+
+		<!-- LAYER NR. 2 -->
+		<div class="tp-caption smalltextslider tp-fade tp-resizeme" 
+			 data-x="151" 
+			 data-y="202"  
+			data-speed="300" 
+			data-start="1000" 
+			data-easing="Power3.easeInOut" 
+			data-splitin="none" 
+			data-splitout="none" 
+			data-elementdelay="0.1" 
+			data-endelementdelay="0.1" 
+			 data-endspeed="300" 
+
+			style="z-index: 6; max-width: auto; max-height: auto; white-space: nowrap;">Helping Families and Friends<br>
+Honor Their Loved One 
+		</div>
+
+		<!-- LAYER NR. 3 -->
+		<div class="tp-caption buttontextslider tp-fade tp-resizeme" 
+			 data-x="190" 
+			 data-y="275"  
+			data-speed="300" 
+			data-start="1500" 
+			data-easing="Power3.easeInOut" 
+			data-splitin="none" 
+			data-splitout="none" 
+			data-elementdelay="0.1" 
+			data-endelementdelay="0.1" 
+			 data-endspeed="300" 
+
+			style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;"><a href='#' class='sc_button sc_button_style_global button-hover' data-text='Learn More'>Learn More</a> 
+		</div>
+	</li>
+	<!-- SLIDE  -->
+	<li data-transition="fade" data-slotamount="7" data-masterspeed="300"  data-saveperformance="off" >
+		<!-- MAIN IMAGE -->
+		<img src="http://blessing.ancorathemes.com/wp-content/uploads/2015/05/2.jpg"  alt="2"  data-bgposition="center top" data-kenburns="on" data-duration="7000" data-ease="Power1.easeIn" data-bgfit="110" data-bgfitend="100" data-bgpositionend="center top">
+		<!-- LAYERS -->
+
+		<!-- LAYER NR. 1 -->
+		<div class="tp-caption bigtextslider sft tp-resizeme" 
+			 data-x="535" 
+			 data-y="80"  
+			data-speed="300" 
+			data-start="500" 
+			data-easing="Power3.easeInOut" 
+			data-splitin="none" 
+			data-splitout="none" 
+			data-elementdelay="0.1" 
+			data-endelementdelay="0.1" 
+			 data-endspeed="300" 
+
+			style="z-index: 5; max-width: auto; max-height: auto; white-space: nowrap;">Where There is Sorrow<br>
+There is Holy Ground 
+		</div>
+
+		<!-- LAYER NR. 2 -->
+		<div class="tp-caption smalltextslider sfl tp-resizeme" 
+			 data-x="600" 
+			 data-y="215"  
+			data-speed="300" 
+			data-start="1000" 
+			data-easing="Power3.easeInOut" 
+			data-splitin="none" 
+			data-splitout="none" 
+			data-elementdelay="0.1" 
+			data-endelementdelay="0.1" 
+			 data-endspeed="300" 
+
+			style="z-index: 6; max-width: auto; max-height: auto; white-space: nowrap;">We provide a range of services including arranging burials<br>
+and managing the maintenance of the grounds. 
+		</div>
+
+		<!-- LAYER NR. 3 -->
+		<div class="tp-caption buttontextslider sfr tp-resizeme" 
+			 data-x="765" 
+			 data-y="290"  
+			data-speed="300" 
+			data-start="1500" 
+			data-easing="Power3.easeInOut" 
+			data-splitin="none" 
+			data-splitout="none" 
+			data-elementdelay="0.1" 
+			data-endelementdelay="0.1" 
+			 data-endspeed="300" 
+
+			style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;"><a href='#' class='sc_button sc_button_style_global button-hover' data-text='Learn More'>Learn More</a> 
+		</div>
+	</li>
+	<!-- SLIDE  -->
+	<li data-transition="fade" data-slotamount="7" data-masterspeed="300"  data-saveperformance="off" >
+		<!-- MAIN IMAGE -->
+		<img src="http://blessing.ancorathemes.com/wp-content/uploads/2015/05/3.jpg"  alt="3"  data-bgposition="14% 0%" data-kenburns="on" data-duration="7000" data-ease="Linear.easeNone" data-bgfit="110" data-bgfitend="100" data-bgpositionend="19% 5%">
+		<!-- LAYERS -->
+
+		<!-- LAYER NR. 1 -->
+		<div class="tp-caption bigtextslider tp-fade tp-resizeme" 
+			 data-x="50" 
+			 data-y="80"  
+			data-speed="300" 
+			data-start="500" 
+			data-easing="Power3.easeInOut" 
+			data-splitin="none" 
+			data-splitout="none" 
+			data-elementdelay="0.1" 
+			data-endelementdelay="0.1" 
+			 data-endspeed="300" 
+
+			style="z-index: 5; max-width: auto; max-height: auto; white-space: nowrap;">Where Heritage & Life<br>
+are Celebrated 
+		</div>
+
+		<!-- LAYER NR. 2 -->
+		<div class="tp-caption smalltextslider tp-fade tp-resizeme" 
+			 data-x="196" 
+			 data-y="224"  
+			data-speed="300" 
+			data-start="1000" 
+			data-easing="Power3.easeInOut" 
+			data-splitin="none" 
+			data-splitout="none" 
+			data-elementdelay="0.1" 
+			data-endelementdelay="0.1" 
+			 data-endspeed="300" 
+
+			style="z-index: 6; max-width: auto; max-height: auto; white-space: nowrap;">Every life deserves a special time<br>
+of honoring and celebrating. 
+		</div>
+
+		<!-- LAYER NR. 3 -->
+		<div class="tp-caption buttontextslider tp-fade tp-resizeme" 
+			 data-x="265" 
+			 data-y="290"  
+			data-speed="300" 
+			data-start="1500" 
+			data-easing="Power3.easeInOut" 
+			data-splitin="none" 
+			data-splitout="none" 
+			data-elementdelay="0.1" 
+			data-endelementdelay="0.1" 
+			 data-endspeed="300" 
+
+			style="z-index: 7; max-width: auto; max-height: auto; white-space: nowrap;"><a href='#' class='sc_button sc_button_style_global button-hover' data-text='Learn More'>Learn More</a> 
+		</div>
+	</li>
+</ul>
+<div class="tp-bannertimer"></div>	</div>
+			
+
+			<style scoped>.tp-caption.bigtextslider,.bigtextslider{font-size:50px;line-height:60px;font-family:Cinzel,serif;color:rgb(255,255,255);text-decoration:none;text-shadow:none;text-align:center;background-color:transparent;border-width:0px;border-color:rgb(255,255,255);border-style:none}.tp-caption.smalltextslider,.smalltextslider{font-size:16px;line-height:23px;font-family:"Quattrocento Sans",sans-serif;color:rgb(255,255,255);text-decoration:none;text-shadow:none;text-align:center;text-transform:uppercase;background-color:transparent;border-width:0px;border-color:rgb(255,255,255);border-style:none}.tp-caption.buttontextslider,.buttontextslider{font-size:16px;line-height:23px;font-family:"Quattrocento Sans",sans-serif;color:#ffffff;text-decoration:none;text-shadow:none;text-align:center;background-color:transparent;border-width:0px;border-color:rgb(255,255,255);border-style:none}</style>
+
+			<script type="text/javascript">
+
+				/******************************************
+					-	PREPARE PLACEHOLDER FOR SLIDER	-
+				******************************************/
+				
+
+				var setREVStartSize = function() {
+					var	tpopt = new Object();
+						tpopt.startwidth = 1170;
+						tpopt.startheight = 520;
+						tpopt.container = jQuery('#rev_slider_2_1');
+						tpopt.fullScreen = "off";
+						tpopt.forceFullWidth="off";
+
+					tpopt.container.closest(".rev_slider_wrapper").css({height:tpopt.container.height()});tpopt.width=parseInt(tpopt.container.width(),0);tpopt.height=parseInt(tpopt.container.height(),0);tpopt.bw=tpopt.width/tpopt.startwidth;tpopt.bh=tpopt.height/tpopt.startheight;if(tpopt.bh>tpopt.bw)tpopt.bh=tpopt.bw;if(tpopt.bh<tpopt.bw)tpopt.bw=tpopt.bh;if(tpopt.bw<tpopt.bh)tpopt.bh=tpopt.bw;if(tpopt.bh>1){tpopt.bw=1;tpopt.bh=1}if(tpopt.bw>1){tpopt.bw=1;tpopt.bh=1}tpopt.height=Math.round(tpopt.startheight*(tpopt.width/tpopt.startwidth));if(tpopt.height>tpopt.startheight&&tpopt.autoHeight!="on")tpopt.height=tpopt.startheight;if(tpopt.fullScreen=="on"){tpopt.height=tpopt.bw*tpopt.startheight;var cow=tpopt.container.parent().width();var coh=jQuery(window).height();if(tpopt.fullScreenOffsetContainer!=undefined){try{var offcontainers=tpopt.fullScreenOffsetContainer.split(",");jQuery.each(offcontainers,function(e,t){coh=coh-jQuery(t).outerHeight(true);if(coh<tpopt.minFullScreenHeight)coh=tpopt.minFullScreenHeight})}catch(e){}}tpopt.container.parent().height(coh);tpopt.container.height(coh);tpopt.container.closest(".rev_slider_wrapper").height(coh);tpopt.container.closest(".forcefullwidth_wrapper_tp_banner").find(".tp-fullwidth-forcer").height(coh);tpopt.container.css({height:"100%"});tpopt.height=coh;}else{tpopt.container.height(tpopt.height);tpopt.container.closest(".rev_slider_wrapper").height(tpopt.height);tpopt.container.closest(".forcefullwidth_wrapper_tp_banner").find(".tp-fullwidth-forcer").height(tpopt.height);}
+				};
+
+				/* CALL PLACEHOLDER */
+				setREVStartSize();
+
+
+				var tpj=jQuery;
+				tpj.noConflict();
+				var revapi2;
+
+				tpj(document).ready(function() {
+
+				if(tpj('#rev_slider_2_1').revolution == undefined){
+					revslider_showDoubleJqueryError('#rev_slider_2_1');
+				}else{
+				   revapi2 = tpj('#rev_slider_2_1').show().revolution(
+					{	
+												dottedOverlay:"none",
+						delay:7000,
+						startwidth:1170,
+						startheight:520,
+						hideThumbs:200,
+
+						thumbWidth:100,
+						thumbHeight:50,
+						thumbAmount:3,
+						
+						minHeight:320,
+														
+						simplifyAll:"off",
+
+						navigationType:"bullet",
+						navigationArrows:"solo",
+						navigationStyle:"round",
+
+						touchenabled:"on",
+						onHoverStop:"on",
+						nextSlideOnWindowFocus:"off",
+
+						swipe_threshold: 75,
+						swipe_min_touches: 1,
+						drag_block_vertical: false,
+						
+												
+												
+						keyboardNavigation:"off",
+
+						navigationHAlign:"center",
+						navigationVAlign:"bottom",
+						navigationHOffset:0,
+						navigationVOffset:20,
+
+						soloArrowLeftHalign:"left",
+						soloArrowLeftValign:"center",
+						soloArrowLeftHOffset:20,
+						soloArrowLeftVOffset:0,
+
+						soloArrowRightHalign:"right",
+						soloArrowRightValign:"center",
+						soloArrowRightHOffset:20,
+						soloArrowRightVOffset:0,
+
+						shadow:0,
+						fullWidth:"on",
+						fullScreen:"off",
+
+												spinner:"spinner0",
+												
+						stopLoop:"off",
+						stopAfterLoops:-1,
+						stopAtSlide:-1,
+
+						shuffle:"off",
+
+						autoHeight:"off",
+						forceFullWidth:"off",
+						
+						
+						
+						hideThumbsOnMobile:"off",
+						hideNavDelayOnMobile:1500,
+						hideBulletsOnMobile:"off",
+						hideArrowsOnMobile:"off",
+						hideThumbsUnderResolution:0,
+
+												hideSliderAtLimit:0,
+						hideCaptionAtLimit:0,
+						hideAllCaptionAtLilmit:0,
+						startWithSlide:0					});
+
+
+
+									}
+				});	/*ready*/
+
+			</script>
+
+
+			</div><!-- END REVOLUTION SLIDER -->		</section>
+		
+			<div class="page_content_wrap" >
+
+				
+<div class="content">
+<article class="itemscope post_item post_item_single post_featured_default post_format_standard post-831 page type-page status-publish hentry" itemscope itemtype="http://schema.org/Article">
+<section class="post_content" itemprop="articleBody"><div class="sc_reviews alignright"><!-- #TRX_REVIEWS_PLACEHOLDER# --></div><div  class="vc_row wpb_row vc_row-fluid">
+	<div class="vc_col-sm-12 wpb_column vc_column_container  vc_custom_1431955086890">
+		<div class="wpb_wrapper">
+			<div class="sc_content content_wrap" data-animation="animated fadeInUp normal"><div class="sc_section bg_tint_none"><h2 class="sc_title sc_title_regular sc_align_center fig_border" style="text-align:center;">Curent Obituaries</h2><div id="sc_blogger_1438749432" class="sc_blogger layout_obituaries_3 template_obituaries  sc_blogger_horizontal">		<div class="post_item post_item_obituaries column-1_3 post_featured_default post_format_standard odd post-710 post type-post status-publish format-standard has-post-thumbnail hentry category-memorials category-obituaries">
+							<div class="post_featured">
+										<div class="post_thumb" data-image="http://blessing.ancorathemes.com/wp-content/uploads/2015/04/Depositphotos_11885931_original.jpg" data-title="Judith Balene">
+						<a class="hover_icon hover_icon_link" href="http://blessing.ancorathemes.com/?p=710"><img class="wp-post-image" width="250" height="250" alt="Judith Balene" src="http://blessing.ancorathemes.com/wp-content/uploads/2015/04/Depositphotos_11885931_original-250x250.jpg"></a>						</div>
+										</div>
+				
+			<div class="post_content clearfix">
+                <div class="obituaries_title">
+				<h4 class="post_title"><a href="http://blessing.ancorathemes.com/?p=710"><span class="post_icon icon-book-2"></span>Judith Balene</a></h4>			<div class="post_info">
+										<span class="post_info_item post_info_posted"> <a href="http://blessing.ancorathemes.com/?p=710" class="post_info_date">May 8, 2015</a></span>
+									</div>
+		        </div>
+				<div class="post_descr clearfix">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing do...</p><a href="http://blessing.ancorathemes.com/?p=710">Read life story</a>				</div>
+
+			</div>	<!-- /.post_content -->
+
+		</div>	<!-- /.post_item -->
+
+			<div class="post_item post_item_obituaries column-1_3 post_featured_default post_format_standard even post-713 post type-post status-publish format-standard has-post-thumbnail hentry category-memorials category-obituaries">
+							<div class="post_featured">
+										<div class="post_thumb" data-image="http://blessing.ancorathemes.com/wp-content/uploads/2015/04/Depositphotos_8465807_original.jpg" data-title="Michael Roof">
+						<a class="hover_icon hover_icon_link" href="http://blessing.ancorathemes.com/?p=713"><img class="wp-post-image" width="250" height="250" alt="Michael Roof" src="http://blessing.ancorathemes.com/wp-content/uploads/2015/04/Depositphotos_8465807_original-250x250.jpg"></a>						</div>
+										</div>
+				
+			<div class="post_content clearfix">
+                <div class="obituaries_title">
+				<h4 class="post_title"><a href="http://blessing.ancorathemes.com/?p=713"><span class="post_icon icon-book-2"></span>Michael Roof</a></h4>			<div class="post_info">
+										<span class="post_info_item post_info_posted"> <a href="http://blessing.ancorathemes.com/?p=713" class="post_info_date">May 8, 2015</a></span>
+									</div>
+		        </div>
+				<div class="post_descr clearfix">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing do...</p><a href="http://blessing.ancorathemes.com/?p=713">Read life story</a>				</div>
+
+			</div>	<!-- /.post_content -->
+
+		</div>	<!-- /.post_item -->
+
+			<div class="post_item post_item_obituaries column-1_3 post_featured_default post_format_standard odd last post-716 post type-post status-publish format-standard has-post-thumbnail hentry category-memorials category-obituaries">
+							<div class="post_featured">
+										<div class="post_thumb" data-image="http://blessing.ancorathemes.com/wp-content/uploads/2015/04/Depositphotos_21831517_original.jpg" data-title="John Doe">
+						<a class="hover_icon hover_icon_link" href="http://blessing.ancorathemes.com/?p=716"><img class="wp-post-image" width="250" height="250" alt="John Doe" src="http://blessing.ancorathemes.com/wp-content/uploads/2015/04/Depositphotos_21831517_original-250x250.jpg"></a>						</div>
+										</div>
+				
+			<div class="post_content clearfix">
+                <div class="obituaries_title">
+				<h4 class="post_title"><a href="http://blessing.ancorathemes.com/?p=716"><span class="post_icon icon-book-2"></span>John Doe</a></h4>			<div class="post_info">
+										<span class="post_info_item post_info_posted"> <a href="http://blessing.ancorathemes.com/?p=716" class="post_info_date">May 8, 2015</a></span>
+									</div>
+		        </div>
+				<div class="post_descr clearfix">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing do...</p><a href="http://blessing.ancorathemes.com/?p=716">Read life story</a>				</div>
+
+			</div>	<!-- /.post_content -->
+
+		</div>	<!-- /.post_item -->
+
+	</div>
+	<div class="wpb_text_column wpb_content_element  vc_custom_1432042877515">
+		<div class="wpb_wrapper">
+			<p style="text-align: center;"><a href="http://blessing.ancorathemes.com/?cat=29" class="sc_button button-hover sc_button_square sc_button_style_dark sc_button_bg_custom sc_button_size_mini" style="width:9em;" data-text="View All Obituaries">View All Obituaries</a></p>
+
+		</div> 
+	</div> </div></div>
+		</div> 
+	</div> 
+</div>	<div  class="vc_row wpb_row vc_row-fluid">
+	<div class="vc_col-sm-12 wpb_column vc_column_container  vc_custom_1432042943665">
+		<div class="wpb_wrapper">
+			<div class="sc_content content_wrap" data-animation="animated fadeInUp normal"><div class="sc_section bg_tint_none"><div class="columns_wrap sc_columns columns_nofluid sc_columns_count_2"><div class="column-1_2 sc_column_item sc_column_item_1 odd first"><figure class="sc_image  sc_image_shape_square"><div style="padding: 0.4em; padding-bottom: 0;"><img src="http://blessing.ancorathemes.com/wp-content/uploads/2015/04/Depositphotos_13930592_original.jpg" alt="" /></div></figure></div><div class="column-1_2 sc_column_item sc_column_item_2 even"><h2 class="sc_title sc_title_regular " style="margin-top:0px;margin-bottom:0.15em;">Welcome</h2>
+	<div class="wpb_text_column wpb_content_element ">
+		<div class="wpb_wrapper">
+			<p>The staff of Blessing Funeral Home takes this concept seriously &#8211; a funeral is a time to honor the life of the deceased and celebrate the heritage of their family. We strive to make each funeral a respectful, fulfilling experience that meets the unique needs of each family.</p>
+<p>Family owned and operated by Barbara Rausch and Bill Gross, our three locations in Owings, Port Republic and Lusby enable Rausch Funeral Home to provide comfort to families in a facility convenient to their home.</p>
+
+		</div> 
+	</div> <a href="http://blessing.ancorathemes.com/?page_id=341" class="sc_button button-hover sc_button_square sc_button_style_light sc_button_bg_custom sc_button_size_mini  sc_button_iconed inherit" style="margin-top:3.5em;" data-text="More Information">More Information</a></div></div></div></div>
+		</div> 
+	</div> 
+</div>	<div  class="vc_row wpb_row vc_row-fluid">
+	<div class="vc_col-sm-12 wpb_column vc_column_container ">
+		<div class="wpb_wrapper">
+			<div class="sc_section bg_tint_none"><div class="sc_content content_wrap" data-animation="animated fadeInUp normal" style="margin-top:1.8em !important;"><h2 class="sc_title sc_title_regular sc_align_center fig_border" style="text-align:center;">Our Services</h2><div class="columns_wrap sc_columns columns_nofluid sc_columns_count_5 history_service" style="margin-bottom:5em;"><div class="column-1_5 sc_column_item sc_column_item_1 odd first" style="text-align:none;"><figure class="sc_image  sc_image_shape_square" style="width:11.866em;"><div style="padding: 0.4em; padding-bottom: 0;"><img src="http://blessing.ancorathemes.com/wp-content/uploads/2015/05/Depositphotos_25370281_original-250x250.jpg" alt="" /></div></figure>
+	<div class="wpb_text_column wpb_content_element ">
+		<div class="wpb_wrapper">
+			<p style="text-align: center;"><a href="http://blessing.ancorathemes.com/?page_id=448">Planning Ahead</a></p>
+
+		</div> 
+	</div> </div><div class="column-1_5 sc_column_item sc_column_item_2 even" style="text-align:none;"><figure class="sc_image  sc_image_shape_square" style="width:11.866em;"><div style="padding: 0.4em; padding-bottom: 0;"><img src="http://blessing.ancorathemes.com/wp-content/uploads/2015/04/Depositphotos_12383716_original-250x250.jpg" alt="" /></div></figure>
+	<div class="wpb_text_column wpb_content_element ">
+		<div class="wpb_wrapper">
+			<p style="text-align: center;"><a href="#">Honoring Life</a></p>
+
+		</div> 
+	</div> </div><div class="column-1_5 sc_column_item sc_column_item_3 odd" style="text-align:none;"><figure class="sc_image  sc_image_shape_square" style="width:11.866em;"><div style="padding: 0.4em; padding-bottom: 0;"><img src="http://blessing.ancorathemes.com/wp-content/uploads/2015/04/Depositphotos_8309201_original-250x250.jpg" alt="" /></div></figure>
+	<div class="wpb_text_column wpb_content_element ">
+		<div class="wpb_wrapper">
+			<p style="text-align: center;"><a href="#">365 Daily Affiliation</a></p>
+
+		</div> 
+	</div> </div><div class="column-1_5 sc_column_item sc_column_item_4 even"><figure class="sc_image  sc_image_shape_square" style="width:11.866em;"><div style="padding: 0.4em; padding-bottom: 0;"><img src="http://blessing.ancorathemes.com/wp-content/uploads/2015/04/Depositphotos_24646197_original-250x250.jpg" alt="" /></div></figure>
+	<div class="wpb_text_column wpb_content_element ">
+		<div class="wpb_wrapper">
+			<p style="text-align: center;"><a href="#">Grief Support</a></p>
+
+		</div> 
+	</div> </div><div class="column-1_5 sc_column_item sc_column_item_5 odd"><figure class="sc_image  sc_image_shape_square" style="width:11.866em;"><div style="padding: 0.4em; padding-bottom: 0;"><img src="http://blessing.ancorathemes.com/wp-content/uploads/2015/04/Depositphotos_2822236_original-250x250.jpg" alt="" /></div></figure>
+	<div class="wpb_text_column wpb_content_element ">
+		<div class="wpb_wrapper">
+			<p style="text-align: center;"><a href="http://blessing.ancorathemes.com/?product_cat=products">Shop Flowers &amp; Gifts</a></p>
+
+		</div> 
+	</div> </div></div></div></div>
+		</div> 
+	</div> 
+</div>	
+		</section>
+	</article>
+</div><div class="sc_gap"><div  class="vc_row wpb_row vc_row-fluid"><div class="vc_col-sm-12 wpb_column vc_column_container "><div class="wpb_wrapper"><div class="sc_parallax bg_tint_light" style="width:100%;height:27.866em;color:#ffffff;" data-parallax-speed="0.4" data-parallax-x-pos="50%" data-parallax-y-pos="50%"><div class="sc_parallax_content" style="background-image:url(http://blessing.ancorathemes.com/wp-content/uploads/2015/05/parallax.jpg); background-position:50% 50%;">
+	<div class="wpb_text_column wpb_content_element  vc_custom_1432043250149">
+		<div class="wpb_wrapper">
+			<h2 style="text-align: center;"><span style="color: #ffffff; line-height: 1.3em;">The Bitterest tears shed over graves are</span><br />
+<span style="color: #ffffff; line-height: 1.3em;"> for words left unsaid and deeds left undone.</span></h2>
+
+		</div> 
+	</div> 
+	<div class="wpb_text_column wpb_content_element  vc_custom_1431341298262">
+		<div class="wpb_wrapper">
+			<p style="text-align: center;">&#8211; Harriet Beecher Stowe</p>
+
+		</div> 
+	</div> </div></div></div></div></div></div>
+<div class="content">
+	<article class="itemscope post_item post_item_single post_featured_default post_format_standard post-831 page type-page status-publish hentry" itemscope itemtype="http://schema.org/Article">
+		<section class="post_content" itemprop="articleBody">	<div  class="vc_row wpb_row vc_row-fluid">
+	<div class="vc_col-sm-12 wpb_column vc_column_container  vc_custom_1431341652306">
+		<div class="wpb_wrapper">
+			<div class="sc_content content_wrap" data-animation="animated fadeInUp normal"><div class="sc_section bg_tint_none" style="margin-top:2em !important; ">
+	<div class="wpb_text_column wpb_content_element ">
+		<div class="wpb_wrapper">
+			<p style="text-align: center;"><span style="color: #a5978b;">HELPING WITH GRIEF</span></p>
+
+		</div> 
+	</div> <h2 class="sc_title sc_title_regular sc_align_center fig_border" style="margin-top:0.1em;margin-bottom:1.2em;text-align:center;">Grief &amp; Healing</h2><div id="sc_blogger_2072084617" class="sc_blogger layout_classic_3 template_masonry  sc_blogger_horizontal no_description"><div class="isotope_wrap" data-columns="3">		<div class="isotope_item isotope_item_classic isotope_item_classic_3 isotope_column_3					">
+			<div class="post_item post_item_classic post_item_classic_3				  post_format_standard odd">
+				
+									<div class="post_featured">
+												<div class="post_thumb" data-image="http://blessing.ancorathemes.com/wp-content/uploads/2015/05/Depositphotos_25370281_original.jpg" data-title="Why Should I Plan Ahead">
+						<a class="hover_icon hover_icon_link" href="http://blessing.ancorathemes.com/?p=198"><img class="wp-post-image" width="365" height="240" alt="Why Should I Plan Ahead" src="http://blessing.ancorathemes.com/wp-content/uploads/2015/05/Depositphotos_25370281_original-365x240.jpg"></a>						</div>
+											</div>
+				
+				<div class="post_content isotope_item_content">
+					
+												<h4 class="post_title">Why Should I Plan Ahead</h4>
+										<div class="post_info">
+										<span class="post_info_item post_info_posted"> <a href="http://blessing.ancorathemes.com/?p=198" class="post_info_date">April 28, 2015</a></span>
+									</div>
+
+					<div class="post_descr">
+						<p>A friend has experienced the death of someone loved. You want to help, but you are not sure how to go about it. This article will guide you in ways to turn your cares and concerns into positive actions.</p><a href="http://blessing.ancorathemes.com/?p=198" class="sc_button button-hover sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small" data-text="READ MORE">READ MORE</a>					</div>
+
+				</div>				<!-- /.post_content -->
+			</div>	<!-- /.post_item -->
+		</div>						<!-- /.isotope_item -->
+				<div class="isotope_item isotope_item_classic isotope_item_classic_3 isotope_column_3					">
+			<div class="post_item post_item_classic post_item_classic_3				  post_format_standard even">
+				
+									<div class="post_featured">
+												<div class="post_thumb" data-image="http://blessing.ancorathemes.com/wp-content/uploads/2015/04/Depositphotos_2887752_original.jpg" data-title="Love and Grief">
+						<a class="hover_icon hover_icon_link" href="http://blessing.ancorathemes.com/?p=188"><img class="wp-post-image" width="365" height="240" alt="Love and Grief" src="http://blessing.ancorathemes.com/wp-content/uploads/2015/04/Depositphotos_2887752_original-365x240.jpg"></a>						</div>
+											</div>
+				
+				<div class="post_content isotope_item_content">
+					
+												<h4 class="post_title">Love and Grief</h4>
+										<div class="post_info">
+										<span class="post_info_item post_info_posted"> <a href="http://blessing.ancorathemes.com/?p=188" class="post_info_date">April 28, 2015</a></span>
+									</div>
+
+					<div class="post_descr">
+						<p>Love is a sacred partnership of communion with another human being. You take each other in, and even when you are apart, you are together.  Wherever you go, you carry the person inside you.</p><a href="http://blessing.ancorathemes.com/?p=188" class="sc_button button-hover sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small" data-text="READ MORE">READ MORE</a>					</div>
+
+				</div>				<!-- /.post_content -->
+			</div>	<!-- /.post_item -->
+		</div>						<!-- /.isotope_item -->
+				<div class="isotope_item isotope_item_classic isotope_item_classic_3 isotope_column_3					">
+			<div class="post_item post_item_classic post_item_classic_3				  post_format_standard odd last">
+				
+									<div class="post_featured">
+												<div class="post_thumb" data-image="http://blessing.ancorathemes.com/wp-content/uploads/2015/04/Depositphotos_39363177_original.jpg" data-title="Helping a Friend in Grief">
+						<a class="hover_icon hover_icon_link" href="http://blessing.ancorathemes.com/?p=182"><img class="wp-post-image" width="365" height="240" alt="Helping a Friend in Grief" src="http://blessing.ancorathemes.com/wp-content/uploads/2015/04/Depositphotos_39363177_original-365x240.jpg"></a>						</div>
+											</div>
+				
+				<div class="post_content isotope_item_content">
+					
+												<h4 class="post_title">Helping a Friend in Grief</h4>
+										<div class="post_info">
+										<span class="post_info_item post_info_posted"> <a href="http://blessing.ancorathemes.com/?p=182" class="post_info_date">April 28, 2015</a></span>
+									</div>
+
+					<div class="post_descr">
+						<p>A friend has experienced the death of someone loved. You want to help, but you are not sure how to go about it. This article will guide you in ways to turn your cares and concerns into positive actions.</p><a href="http://blessing.ancorathemes.com/?p=182" class="sc_button button-hover sc_button_square sc_button_style_filled sc_button_bg_link sc_button_size_small" data-text="READ MORE">READ MORE</a>					</div>
+
+				</div>				<!-- /.post_content -->
+			</div>	<!-- /.post_item -->
+		</div>						<!-- /.isotope_item -->
+		</div></div></div></div>
+		</div> 
+	</div> 
+</div>
+            
+        
+			</section> <!-- </section> class="post_content" itemprop="articleBody"> -->
+		</article> <!-- </article> class="itemscope post_item post_item_single post_featured_default post_format_standard post-831 page type-page status-publish hentry" itemscope itemtype="http://schema.org/Article"> -->	<section class="related_wrap related_wrap_empty"></section>
+	
+	</div> <!-- </div> class="content"> -->			
+			</div>		<!-- </.page_content_wrap> -->
+			
+							<footer class="footer_wrap bg_tint_light footer_style_white widget_area">
+					<div class="content_wrap">
+						<div class="columns_wrap">
+						<aside id="ancora_widget_socials-4" class="widget_number_1 column-1_4 widget widget_socials">		<div class="widget_inner">
+            						<div class="logo"><a href="http://blessing.ancorathemes.com"><img src="http://blessing.ancorathemes.com/wp-content/uploads/2015/04/fot_logo.png" alt=""><span class="logo_text"> </span></a></div>
+										<div class="logo_descr">Our professional and caring staff is dedicated to working with your family to provide assistance in selecting high quality and affordable funeral services during a time</div>
+                    <div class="sc_socials sc_socials_size_small"><div class="sc_socials_item"><a href="#" target="_blank" class="social_icons social_twitter"><span class="icon-twitter"></span></a></div><div class="sc_socials_item"><a href="#" target="_blank" class="social_icons social_facebook"><span class="icon-facebook"></span></a></div><div class="sc_socials_item"><a href="#" target="_blank" class="social_icons social_gplus"><span class="icon-gplus"></span></a></div><div class="sc_socials_item"><a href="#" target="_blank" class="social_icons social_skype"><span class="icon-skype"></span></a></div></div>		</div>
+
+		</aside><aside id="text-3" class="widget_number_2 column-1_4 widget widget_text"><h5 class="widget_title">Testimonals</h5>			<div class="textwidget"><div class="testim">I wanted to take a moment and thank you again for the very nice service you performed for Iran's memorial. I had several people come up to me to say "what a wonderful funeral". It was a nice tribute to him."<br><br>
+<em>- Alexander Davis</em><br><br>
+<a href="#">View All Testimonials</a></div></div>
+		</aside><aside id="text-4" class="widget_number_3 column-1_4 widget widget_text"><h5 class="widget_title">Contact Info</h5>			<div class="textwidget"><ul class="sc_list  sc_list_style_iconed"><li class="sc_list_item odd first"><span class="sc_list_icon icon-home-1"></span>13005 Greenville Avenue<br>
+California, TX 70240</li><li class="sc_list_item even"><span class="sc_list_icon icon-smartphone"></span>(303) 674-7750</li><li class="sc_list_item odd"><span class="sc_list_icon icon-mail-2"></span><a href="#"> <span class="__cf_email__" data-cfemail="8ae3e4ece5caf3e5fff8f9e3feefa4e9e5e7">[email&#160;protected]</span><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script></a></li><li class="sc_list_item even"><span class="sc_list_icon icon-location-1"></span><a href="#">Map & Directions</a></li></ul>
+</div>
+		</aside><aside id="ancora_widget_flickr-4" class="widget_number_4 column-1_4 widget widget_flickr"><h5 class="widget_title">Photo Gallery</h5>		<div class="flickr_images">
+							<script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count=6&amp;display=random&amp;flickr_display=random&amp;size=s&amp;layout=x&amp;source=user&amp;user=63745329%40N04"></script>
+						</div>
+
+		</aside>						</div>	<!-- /.columns_wrap -->
+					</div>	<!-- /.content_wrap -->
+				</footer>	<!-- /.footer_wrap -->
+			 
+				<div class="copyright_wrap bottom_cont">
+					<div class="content_wrap">
+						<p>Ancora © 2015 All Rights Reserved Terms of Use and Privacy Policy</p>					</div>
+				</div>
+						
+		</div>	<!-- /.page_wrap -->
+
+	</div>		<!-- /.body_wrap -->
+
+<div class="custom_options_shadow"></div>
+
+<div id="custom_options" class="custom_options co_light">
+
+	<a href="#" id="co_toggle" class="icon-params"></a>
+	
+	<div class="co_header">
+		<div class="co_title">
+			<span>Style switcher</span>
+			<a href="#" id="co_theme_reset" class="co_reset icon-retweet-1" title="Reset to defaults">RESET</a>
+		</div>
+	</div>
+
+	<div id="sc_custom_scroll" class="co_options sc_scroll sc_scroll_vertical">
+		<div class="sc_scroll_wrapper swiper-wrapper">
+			<div class="sc_scroll_slide swiper-slide">
+				<input type="hidden" id="co_site_url" name="co_site_url" value="http://blessing.ancorathemes.com/wp-content/imports/2015/04/180583_topdj_ua_-_dj_Paul_Morena_-_Paul_Morena-_Orange_Girl_-for_end_mix-mp3-image.jpg/" />
+
+				<div class="co_section">
+					<div class="co_label">Body styles</div>
+					<div class="co_switch_box co_switch_horizontal co_switch_columns_3" data-options="body_style">
+						<div class="switcher" data-value="fullscreen"></div>
+						<a href="#" data-value="boxed">Boxed</a>
+						<a href="#" data-value="wide">Wide</a>
+						<a href="#" data-value="fullwide">Fullwide</a>
+					</div>
+				</div>
+
+				<div class="co_section">
+					<div class="co_label">Color scheme</div>
+					<div id="co_scheme_list" class="co_image_check" data-options="color_scheme">
+													<a href="#" id="scheme_original" class="co_scheme_wrapper active" style="background-image: url(http://blessing.ancorathemes.com/wp-content/themes/blessing/skins/blessing/images/schemes/original.jpg)" data-value="original"><span>Original</span></a>
+														<a href="#" id="scheme_blue" class="co_scheme_wrapper" style="background-image: url(http://blessing.ancorathemes.com/wp-content/themes/blessing/skins/blessing/images/schemes/blue.jpg)" data-value="blue"><span>Blue</span></a>
+														<a href="#" id="scheme_green" class="co_scheme_wrapper" style="background-image: url(http://blessing.ancorathemes.com/wp-content/themes/blessing/skins/blessing/images/schemes/green.jpg)" data-value="green"><span>Green</span></a>
+												</div>
+				</div>
+
+				<div class="co_section">
+					<div class="co_label">Color settings</div>
+					<div class="co_colorpic_list">
+						<div class="iColorPicker" data-options="link_color" data-value="#493834"><span>Link color</span></div>
+						<div class="iColorPicker" data-options="menu_color" data-value="#592131"><span>Menu color</span></div>
+						<div class="iColorPicker" data-options="user_color" data-value="#f1ad48"><span>User color</span></div>
+					</div>
+				</div>
+
+				<div class="co_section">
+					<div class="co_label">Background pattern</div>
+					<div id="co_bg_pattern_list" class="co_image_check" data-options="bg_pattern">
+													<a href="#" id="pattern_1" class="co_pattern_wrapper" style="background-image: url(http://blessing.ancorathemes.com/wp-content/themes/blessing/images/bg/pattern_1_thumb.jpg)"><span class="co_bg_preview" style="background-image: url(http://blessing.ancorathemes.com/wp-content/themes/blessing/images/bg/pattern_1.jpg)"></span></a>
+														<a href="#" id="pattern_2" class="co_pattern_wrapper" style="background-image: url(http://blessing.ancorathemes.com/wp-content/themes/blessing/images/bg/pattern_2_thumb.jpg)"><span class="co_bg_preview" style="background-image: url(http://blessing.ancorathemes.com/wp-content/themes/blessing/images/bg/pattern_2.jpg)"></span></a>
+														<a href="#" id="pattern_3" class="co_pattern_wrapper" style="background-image: url(http://blessing.ancorathemes.com/wp-content/themes/blessing/images/bg/pattern_3_thumb.jpg)"><span class="co_bg_preview" style="background-image: url(http://blessing.ancorathemes.com/wp-content/themes/blessing/images/bg/pattern_3.jpg)"></span></a>
+														<a href="#" id="pattern_4" class="co_pattern_wrapper" style="background-image: url(http://blessing.ancorathemes.com/wp-content/themes/blessing/images/bg/pattern_4_thumb.jpg)"><span class="co_bg_preview" style="background-image: url(http://blessing.ancorathemes.com/wp-content/themes/blessing/images/bg/pattern_4.jpg)"></span></a>
+														<a href="#" id="pattern_5" class="co_pattern_wrapper" style="background-image: url(http://blessing.ancorathemes.com/wp-content/themes/blessing/images/bg/pattern_5_thumb.jpg)"><span class="co_bg_preview" style="background-image: url(http://blessing.ancorathemes.com/wp-content/themes/blessing/images/bg/pattern_5.jpg)"></span></a>
+												</div>
+				</div>
+
+				<div class="co_section">
+					<div class="co_label">Background image</div>
+					<div id="co_bg_images_list" class="co_image_check" data-options="bg_image">
+													<a href="#" id="pattern_1" class="co_image_wrapper" style="background-image: url(http://blessing.ancorathemes.com/wp-content/themes/blessing/images/bg/image_1_thumb.jpg)"><span class="co_bg_preview" style="background-image: url(http://blessing.ancorathemes.com/wp-content/themes/blessing/images/bg/image_1.jpg)"></span></a>
+														<a href="#" id="pattern_2" class="co_image_wrapper" style="background-image: url(http://blessing.ancorathemes.com/wp-content/themes/blessing/images/bg/image_2_thumb.jpg)"><span class="co_bg_preview" style="background-image: url(http://blessing.ancorathemes.com/wp-content/themes/blessing/images/bg/image_2.jpg)"></span></a>
+														<a href="#" id="pattern_3" class="co_image_wrapper" style="background-image: url(http://blessing.ancorathemes.com/wp-content/themes/blessing/images/bg/image_3_thumb.jpg)"><span class="co_bg_preview" style="background-image: url(http://blessing.ancorathemes.com/wp-content/themes/blessing/images/bg/image_3.jpg)"></span></a>
+												</div>
+				</div>
+
+			</div><!-- .sc_scroll_slide -->
+		</div><!-- .sc_scroll_wrapper -->
+		<div id="sc_custom_scroll_bar" class="sc_scroll_bar sc_scroll_bar_vertical sc_custom_scroll_bar"></div>
+	</div><!-- .sc_scroll -->
+</div><!-- .custom_options -->
+<a href="#" class="scroll_to_top icon-up-2" title="Scroll to top"></a>
+
+<div class="custom_html_section">
+</div>
+
+
+<script type="text/javascript">jQuery(document).ready(function() {ANCORA_GLOBALS["strings"] = {bookmark_add: 		"Add the bookmark",bookmark_added:		"Current page has been successfully added to the bookmarks. You can see it in the right panel on the tab \'Bookmarks\'",bookmark_del: 		"Delete this bookmark",bookmark_title:		"Enter bookmark title",bookmark_exists:		"Current page already exists in the bookmarks list",search_error:		"Error occurs in AJAX search! Please, type your query and press search icon for the traditional search way.",email_confirm:		"On the e-mail address <b>%s</b> we sent a confirmation email.<br>Please, open it and click on the link.",reviews_vote:		"Thanks for your vote! New average rating is:",reviews_error:		"Error saving your vote! Please, try again later.",error_like:			"Error saving your like! Please, try again later.",error_global:		"Global error text",name_empty:			"The name can\'t be empty",name_long:			"Too long name",email_empty:			"Too short (or empty) email address",email_long:			"Too long email address",email_not_valid:		"Invalid email address",subject_empty:		"The subject can\'t be empty",subject_long:		"Too long subject",text_empty:			"The message text can\'t be empty",text_long:			"Too long message text",send_complete:		"Send message complete!",send_error:			"Transmit failed!",login_empty:			"The Login field can\'t be empty",login_long:			"Too long login field",login_success:		"Login success! The page will be reloaded in 3 sec.",login_failed:		"Login failed!",password_empty:		"The password can\'t be empty and shorter then 4 characters",password_long:		"Too long password",password_not_equal:	"The passwords in both fields are not equal",registration_success:"Registration success! Please log in!",registration_failed:	"Registration failed!",geocode_error:		"Geocode was not successful for the following reason:",googlemap_not_avail:	"Google map API not available!",editor_save_success:	"Post content saved!",editor_save_error:	"Error saving post data!",editor_delete_post:	"You really want to delete the current post?",editor_delete_post_header:"Delete post",editor_delete_success:	"Post deleted!",editor_delete_error:		"Error deleting post!",editor_caption_cancel:	"Cancel",editor_caption_close:	"Close"};});</script><script type="text/javascript">jQuery(document).ready(function() {ANCORA_GLOBALS['ajax_url']			= 'http://blessing.ancorathemes.com/wp-admin/admin-ajax.php';ANCORA_GLOBALS['ajax_nonce']		= '7906b3e221';ANCORA_GLOBALS['ajax_nonce_editor'] = '7077e698dc';ANCORA_GLOBALS['site_url']			= 'http://blessing.ancorathemes.com';ANCORA_GLOBALS['vc_edit_mode']		= false;ANCORA_GLOBALS['theme_font']		= '';ANCORA_GLOBALS['theme_skin']		= 'blessing';ANCORA_GLOBALS['theme_skin_bg']	= '';ANCORA_GLOBALS['slider_height']	= 520;ANCORA_GLOBALS['system_message']	= {message: '',status: '',header: ''};ANCORA_GLOBALS['user_logged_in']	= false;ANCORA_GLOBALS['toc_menu']		= 'float';ANCORA_GLOBALS['toc_menu_home']	= true;ANCORA_GLOBALS['toc_menu_top']	= true;ANCORA_GLOBALS['menu_fixed']		= true;ANCORA_GLOBALS['menu_relayout']	= 960;ANCORA_GLOBALS['menu_responsive']	= 800;ANCORA_GLOBALS['menu_slider']     = true;ANCORA_GLOBALS['demo_time']		= 0;ANCORA_GLOBALS['media_elements_enabled'] = true;ANCORA_GLOBALS['ajax_search_enabled'] 	= true;ANCORA_GLOBALS['ajax_search_min_length']	= 3;ANCORA_GLOBALS['ajax_search_delay']		= 200;ANCORA_GLOBALS['css_animation']      = true;ANCORA_GLOBALS['menu_animation_in']  = 'none';ANCORA_GLOBALS['menu_animation_out'] = 'none';ANCORA_GLOBALS['popup_engine']	= 'magnific';ANCORA_GLOBALS['popup_gallery']	= true;ANCORA_GLOBALS['email_mask']		= '^([a-zA-Z0-9_\-]+\.)*[a-zA-Z0-9_\-]+@[a-z0-9_\-]+(\.[a-z0-9_\-]+)*\.[a-z]{2,6}$';ANCORA_GLOBALS['contacts_maxlength']	= 1000;ANCORA_GLOBALS['comments_maxlength']	= 1000;ANCORA_GLOBALS['remember_visitors_settings']	= false;ANCORA_GLOBALS['admin_mode']			= false;ANCORA_GLOBALS['isotope_resize_delta']	= 0.3;ANCORA_GLOBALS['error_message_box']	= null;ANCORA_GLOBALS['viewmore_busy']		= false;ANCORA_GLOBALS['video_resize_inited']	= false;ANCORA_GLOBALS['top_panel_height']		= 0;});</script><script type="text/javascript">jQuery(document).ready(function() {if (ANCORA_GLOBALS['theme_font']=='') ANCORA_GLOBALS['theme_font'] = 'Roboto';ANCORA_GLOBALS['link_color'] = '#493834';ANCORA_GLOBALS['menu_color'] = '#592131';ANCORA_GLOBALS['user_color'] = '#f1ad48';});</script><link rel='stylesheet' id='ancora-messages-style-css'  href='http://blessing.ancorathemes.com/wp-content/themes/blessing/fw/js/core.messages/core.messages.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='ancora-swiperslider-style-css'  href='http://blessing.ancorathemes.com/wp-content/themes/blessing/fw/js/swiper/idangerous.swiper.min.css' type='text/css' media='all' />
+<script type='text/javascript' src='//blessing.ancorathemes.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.60'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='//blessing.ancorathemes.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=2.3.9'></script>
+<script type='text/javascript' src='//blessing.ancorathemes.com/wp-content/plugins/woocommerce/assets/js/jquery-cookie/jquery.cookie.min.js?ver=1.4.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","fragment_name":"wc_fragments"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='//blessing.ancorathemes.com/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=2.3.9'></script>
+<script type='text/javascript' src='http://blessing.ancorathemes.com/wp-content/themes/blessing/fw/js/superfish.min.js'></script>
+<script type='text/javascript' src='http://blessing.ancorathemes.com/wp-content/themes/blessing/fw/js/jquery.slidemenu.min.js'></script>
+<script type='text/javascript' src='http://blessing.ancorathemes.com/wp-content/themes/blessing/fw/js/core.utils.min.js'></script>
+<script type='text/javascript' src='http://blessing.ancorathemes.com/wp-content/themes/blessing/fw/js/core.init.js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var mejsL10n = {"language":"en-US","strings":{"Close":"Close","Fullscreen":"Fullscreen","Download File":"Download File","Download Video":"Download Video","Play\/Pause":"Play\/Pause","Mute Toggle":"Mute Toggle","None":"None","Turn off Fullscreen":"Turn off Fullscreen","Go Fullscreen":"Go Fullscreen","Unmute":"Unmute","Mute":"Mute","Captions\/Subtitles":"Captions\/Subtitles"}};
+var _wpmejsSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://blessing.ancorathemes.com/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=2.16.2'></script>
+<script type='text/javascript' src='http://blessing.ancorathemes.com/wp-includes/js/mediaelement/wp-mediaelement.js?ver=4.2.7'></script>
+<script type='text/javascript' src='http://blessing.ancorathemes.com/wp-content/themes/blessing/fw/js/social/social-share.min.js'></script>
+<script type='text/javascript' src='http://blessing.ancorathemes.com/wp-includes/js/comment-reply.min.js?ver=4.2.7'></script>
+<script type='text/javascript' src='http://blessing.ancorathemes.com/wp-content/themes/blessing/fw/core/core.customizer/front.customizer.min.js'></script>
+<script type='text/javascript' src='http://blessing.ancorathemes.com/wp-content/themes/blessing/fw/shortcodes/shortcodes.js'></script>
+<script type='text/javascript' src='http://blessing.ancorathemes.com/wp-content/themes/blessing/fw/js/core.messages/core.messages.min.js'></script>
+<script type='text/javascript' src='http://blessing.ancorathemes.com/wp-content/plugins/js_composer/assets/js/js_composer_front.js?ver=4.5.1'></script>
+<script type='text/javascript' src='http://blessing.ancorathemes.com/wp-content/plugins/js_composer/assets/lib/bower/isotope/dist/isotope.pkgd.min.js?ver=4.5.1'></script>
+<script type='text/javascript' src='http://blessing.ancorathemes.com/wp-content/themes/blessing/fw/js/swiper/idangerous.swiper-2.7.min.js'></script>
+<script type='text/javascript' src='http://blessing.ancorathemes.com/wp-content/themes/blessing/fw/js/swiper/idangerous.swiper.scrollbar-2.4.min.js'></script>
+</body>
+</html>

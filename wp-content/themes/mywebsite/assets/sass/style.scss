@@ -1,0 +1,72 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, img, abbr, acronym, address, big, cite, code, hr, del, dfn, font, ins, kbd, q, s, samp, small, strike, tt, var, center,  dl, dt, dd, ol, ul, li, fieldset, form, label, legend, select, input, button, textarea, table, caption, tbody, tfoot, thead, tr, th, td { margin: 0; padding: 0; border: 0; outline: 0; vertical-align: baseline; text-decoration:none; outline: 0; }
+
+* {
+	padding: 0; 
+	margin: 0; 
+} 
+
+
+
+/* FONTS */
+$font-url: 'https://fonts.googleapis.com/css?family=Lato';
+$font-family: 'Lato', sans-serif;
+@import url($font-url);
+
+/* AWESOME */
+@import "awesome/font-awesome";
+
+/* FANCYBOX */
+@import "fancybox/fancybox";
+
+/* BOOTSTRAP */
+@import "bootstrap/bootstrap";
+
+/* ANIMATE */
+@import "animate/animate.css"; 
+
+/* CAROUSEL */
+@import "carousel/carousel.css"; 
+
+/* TEMA */
+@import "tema/prettyPhoto.css"; 
+@import "tema/YTPlayer.css"; 
+@import "tema/flaticon.css"; 
+@import "tema/mb-comingsoon-iceberg.css"; 
+@import "tema/style.css"; 
+@import "tema/responsive.css"; 
+
+html {
+	font-size: 100%;
+}
+
+
+
+.copy {
+	padding: 20px 0;
+	width: 100%;
+	float: left;
+	height: 65px;
+	overflow: hidden;
+
+	p {
+		padding: 0;
+		line-height: 27px;
+		height: 27px;
+	}
+
+	.myweb {
+		text-align: right;
+
+		a, span {
+			float: right;
+		}
+
+		a:hover {
+			opacity: .5;
+		}
+
+		span {
+			padding: 4px 9px;
+		}
+	}
+}
