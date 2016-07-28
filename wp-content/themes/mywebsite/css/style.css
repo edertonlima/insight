@@ -174,7 +174,7 @@ a:hover, a:focus{
 	margin-top:0px;
 }
 .sub-title{
-	font-size:14px;
+	font-size:15px;
 	font-family: 'Lato';
 	padding:0px 5% 45px;
 	margin:0px;
@@ -684,7 +684,7 @@ position:static;
 .left.carousel-control{
 	background:transparent;
 	border-bottom:none;
-	left:8%;
+	left:8%!important;
 	top:50%;
 	height:45px;
 	width: 40px;
@@ -707,7 +707,7 @@ position:static;
 .right.carousel-control{
 	background:transparent;
 	border-bottom:none;
-	right:8%;
+	right:8%!important;
 	top:50%;
 	height: 45px;
 	width: 40px;
@@ -731,7 +731,10 @@ position:static;
 	color:#fff;
 }
 .carousel-inner img{
-	float:right;
+	float: right;
+	height: 453px;
+	width: auto;
+	max-width: none;
 }
 .carousel-caption{
 	text-shadow:none;
@@ -751,6 +754,7 @@ position:static;
 	font-size:16px;
 }
 .carousel-caption .btn{
+	color: #ffffff;
 	margin-top:25px;
 	height:35px;
 	width:155px;
@@ -1656,7 +1660,6 @@ position:static;
 /*--------- BLOG SECTION  --------------*/
 
 .blog-section .sub-title{
-	color:#696868;
 	padding:0 15% 45px
 }
 .blog-section .blog-item{
@@ -2936,4 +2939,82 @@ position:static;
 }
 .team-section .team-item .name {
 	margin: 10px 0;
+}
+
+
+.mask-curriculo {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255,255,255, 0.5);
+	top: 0;
+	left: 0;
+	z-index: 900;
+	display: none;
+}
+
+.mask-curriculo .curriculo {
+	display: none;
+	opacity: 1;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 500px;
+	height: 300px;
+	background-color: #fff;
+	padding: 20px;
+	margin: -150px 0 0 -250px;
+}
+
+.mask-curriculo .curriculo span {
+
+}
+
+.mask-curriculo .curriculo span:before {
+	content: '';
+}
+
+ .curriculo {
+ 	display: none;
+ }
+ .curriculo h3 {
+	color: #16b6ea;
+ }
+ .curriculo h3 strong {
+ 	margin-right: 10px;
+ }
+.curriculo span {
+  	display: block;
+  	margin-top: 5px;
+}
+.curriculo span i {
+	margin-right: 5px;
+}
+.blog-content {
+ 	padding: 5px;
+ }
+
+ .text-center {
+ 	text-align: center;
+ } 
+
+ .text-justify {
+ 	text-align: justify;
+ }
+
+
+ #doencas, #cirurgias, #insight, #testemunhos, #contato, #blog, #servicos {
+    padding-top: 100px;
+}
+
+p.feature-content {
+    margin-bottom: 5px;
+}
+
+.feature-content i {
+    width: auto;
+    height: auto;
+    display: inline-block;
+    margin-right: 5px;
+    line-height: normal;
 }
