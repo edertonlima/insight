@@ -4,6 +4,8 @@
 <!-- Title and Meta Tags Begins -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 <meta charset="utf-8">
+<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/images/favicon.ico" type="image/x-icon">
+<link rel="icon" href="<?php echo get_template_directory_uri(); ?>/images/favicon.ico" type="image/x-icon">
 <title>Desirable-home</title>
 <!-- Title and Meta Tags Ends -->
 <!-- Google Font Begins -->
@@ -138,8 +140,7 @@
 					<div class="row">
 						<div class="col-md-offset-2 carousel-caption">
 							<h1>Equipe preparada para cuidar da sua visão</h1>
-							<p>All the best ideas collected specially for you</p>
-							<p> This theme has everything you need</p>
+							<p>Corpo clínico formado por excelentes e renomados<br>profissionais que atuam de forma ética e integrada.</p>
 							<a href="#insight" class="scroll" title="Conheça"><div class="btn">Conheça</div></a>
 						</div>
 						<div class="col-md-12"> <img src="<?php echo get_template_directory_uri(); ?>/images/image001.jpg" class="img-responsive"  alt="slider-1"> </div>
@@ -149,19 +150,17 @@
 					<div class="row">
 						<div class="col-md-offset-2 carousel-caption">
 							<h1>Conheça nossas especialidades</h1>
-							<p>We ensure quality & support</p>
-							<p>People love us & we love them</p>
+							<p>Realizamos consultas de rotina, exames e<br>procedimentos cirúrgicos. Tudo com alto padrão de qualidade!</p>
 							<a href="#doencas" class="scroll" title="Acesse"><div class="btn">Acesse</div></a>
 						</div>
-						<div class="col-md-12"> <img src="<?php echo get_template_directory_uri(); ?>/images/image002.jpg"  class="img-responsive" alt="slider-1"> </div>
+						<div class="col-md-12"> <img src="<?php echo get_template_directory_uri(); ?>/images/banner-3.jpg"  class="img-responsive" alt="slider-1"> </div>
 					</div>
 				</div>
 				<div class="item">
 					<div class="row">
 						<div class="col-md-offset-2 carousel-caption">
 							<h1>Acesse nossas dicas e informações sobre o <br>universo da oftalmologia</h1>
-							<p>Awesome colors, based on bootstrap</p>
-							<p>Pixel perfect design</p>
+							<p>Blog com artigos de alta qualidade técnica,<br>repleto de dicas e novidades. Venha conferir!</p>
 							<a href="#blog" class="scroll" title="Leia"><div class="btn">Leia</div></a>
 						</div>
 						<div class="col-md-12"> <img src="<?php echo get_template_directory_uri(); ?>/images/image003.jpg"  class="img-responsive" alt="slider-1"> </div>
@@ -557,8 +556,8 @@
 			<!-- Content -->
 			<div class="row">
 				<div class="col-md-10 col-md-offset-1 about-content animated" data-animation="fadeInRight" data-animation-delay="500">
-					<p class="next-content text-justify">​A <strong>In Sight</strong> é parceria de diversos convênios e tem orgulho de ser a clínica escolhida pelo Hospital São Luiz para executar os atendimentos do seu pronto socorro oftalmológico. Instalada em uma confortável casa no coração da Vila Nova Conceição e com um corpo clínico composto por especialistas das mais diversas áreas da oftalmologia - muitos deles com formação internacional e fazendo parte do corpo docente dos principais centros de ensino de oftalmologia do Brasil - a In Sight conta com uma tecnologia de ponta e equipamentos que propiciam exames detalhados e precisos, o que contribui significativamente na qualidade dos diagnósticos. Conveniência oferecida pela ampla e bem localizada sede, pelo atendimento diferenciado e pela variedade de convênios aceitos.</p>
-					<p class="next-content text-justify">Visite-nos e deixe a <strong>In Sight</strong> contribuir para a sua qualidade de vida!</p>
+					<p class="next-content text-center">​A <strong>In Sight</strong> é parceria de diversos convênios e tem orgulho de ser a clínica escolhida pelo Hospital São Luiz para executar os atendimentos do seu pronto socorro oftalmológico. Instalada em uma confortável casa no coração da Vila Nova Conceição e com um corpo clínico composto por especialistas das mais diversas áreas da oftalmologia - muitos deles com formação internacional e fazendo parte do corpo docente dos principais centros de ensino de oftalmologia do Brasil - a In Sight conta com uma tecnologia de ponta e equipamentos que propiciam exames detalhados e precisos, o que contribui significativamente na qualidade dos diagnósticos. Conveniência oferecida pela ampla e bem localizada sede, pelo atendimento diferenciado e pela variedade de convênios aceitos.</p>
+					<p class="next-content text-center">Visite-nos e deixe a <strong>In Sight</strong> contribuir para a sua qualidade de vida!</p>
 				</div>
 			</div>
 		</div>
@@ -939,8 +938,7 @@
 
 
 <?php /* BLOG */ ?>
-<section id="blog" class="blog-section section slant-angle parallax1bg" style="background: url(<?php echo get_template_directory_uri(); ?>/images/bg-blog.jpg) 0 no-repeat fixed;
-}">
+<section id="blog" class="blog-section section slant-angle parallax1bg" style="background: url(<?php echo get_template_directory_uri(); ?>/images/fundo-blog.jpg) no-repeat center center fixed; ">
 	<!-- Slant Shape -->
 	<div class="slant-top-angle"></div>
 	<div class="container">
