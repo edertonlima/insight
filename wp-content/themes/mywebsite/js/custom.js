@@ -162,7 +162,7 @@ $(document).ready(function() {
 
 		/* ----------- Team Section ----------- */
 		$("#team-slider").owlCarousel({
-			items : 3,
+			items : 4,
 			lazyLoad : true,
 			autoPlay: false,
 			navigation : true,

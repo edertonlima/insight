@@ -214,6 +214,7 @@
 									<a href="#curriculo-1" class="fancybox">
 										<h3 class="name">Dra. Renata Bastos Alves</h3>
 										<h4 class="designation">CRM 83.686</h4>
+										<span class="btn">Acesse o currículo <i class="fa fa-angle-right"></i></span>
 									</a>
 									<div class="curriculo" id="curriculo-1">
 										<h3 class="name">​​<strong>Dra. Renata Bastos Alves</strong>CRM 83.686</h3>
@@ -241,6 +242,7 @@
 									<a href="#curriculo-2" class="fancybox">
 										<h3 class="name">Drº Renato Leça</h3>
 										<h4 class="designation">CRM 58.672</h4>
+										<span class="btn">Acesse o currículo <i class="fa fa-angle-right"></i></span>
 									</a>
 									<div class="curriculo" id="curriculo-2">
 										<h3 class="name">​<strong>Drº Renato Leça</strong>CRM 58.672</h3>
@@ -265,6 +267,7 @@
 									<a href="#curriculo-3" class="fancybox">
 										<h3 class="name">Dra. Daniella Villas Boas Fairbanks Barbosa</h3>
 										<h4 class="designation">CRM 81.774</h4>
+										<span class="btn">Acesse o currículo <i class="fa fa-angle-right"></i></span>
 									</a>
 									<div class="curriculo" id="curriculo-3">
 										<h3 class="name">​<strong>Dra. Daniella Villas Boas Fairbanks Barbosa</strong>CRM 81.774</h3>
@@ -291,6 +294,7 @@
 									<a href="#curriculo-4" class="fancybox">
 										<h3 class="name">Dr. Vicente Vitiello Neto</h3>
 										<h4 class="designation">CRM 79.456</h4>
+										<span class="btn">Acesse o currículo <i class="fa fa-angle-right"></i></span>
 									</a>
 									<div class="curriculo" id="curriculo-4">
 										<h3 class="name">​<strong>Dr. Vicente Vitiello Neto</strong>CRM 79.456</h3>

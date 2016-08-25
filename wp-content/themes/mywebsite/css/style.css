@@ -3018,3 +3018,13 @@ p.feature-content {
     margin-right: 5px;
     line-height: normal;
 }
+
+.team-item span.btn {
+    color: #999999;
+    margin: 0;
+    padding: 0;
+}
+
+.team-item:hover span.btn {
+	color: #16b6ea;
+}
