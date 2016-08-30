@@ -3028,3 +3028,17 @@ p.feature-content {
 .team-item:hover span.btn {
 	color: #16b6ea;
 }
+
+.team-content a strong {
+	display: block;
+	color: #999;
+	margin: -11px 0 10px;
+	font-size: 13px;
+}
+
+.curriculo strong.sub-tit {
+	display: block;
+	color: #999;
+	margin: -5px 0 0px;
+	font-size: 13px;
+}

@@ -110,8 +110,8 @@
 							<li><a href="#insight" class="scroll insight" title="Insight Oftalmologia">​A In Sight</a></li>
 							<li><a href="#servicos" class="scroll insight" title="Serviços">Serviços</a></li>
 							<!--<li><a href="#features-section" class="scroll">Features</a></li>-->
-							<li><a href="#doencas" class="scroll" title="Doenças">Doenças</a></li>
 							<li><a href="#cirurgias" class="scroll" title="Cirurgias">Cirurgias</a></li>
+							<li><a href="#doencas" class="scroll" title="Doenças">Doenças</a></li>
 							<li><a href="#blog" class="scroll">Blog</a></li>
 							<li><a href="#contato" class="scroll">Contato</a></li>
 						</ul>
@@ -191,7 +191,7 @@
 					<!-- your-work Info Begins -->
 					<div class="col-xs-12">
 						<!-- Title -->
-						<h2 class="section-title text-center animated fadeInRight visible" data-animation="fadeInRight" data-animation-delay="300">Equipe Médica</h2>
+						<h2 class="section-title text-center animated fadeInRight visible" data-animation="fadeInRight" data-animation-delay="300">Diretoria Clínica</h2>
 						<!-- Sub Title -->
 						<p class="sub-title text-center animated fadeInLeft visible" data-animation="fadeInLeft" data-animation-delay="300">Com profissionais formados em diversas especialidades da oftalmologia, a <strong>In Sight</strong> oferece soluções integradas,<br>tratando com excelência, praticamente todas as patologias oculares existentes.</p>
 					</div>
@@ -213,11 +213,13 @@
 								<div class="team-content">
 									<a href="#curriculo-1" class="fancybox">
 										<h3 class="name">Dra. Renata Bastos Alves</h3>
+										<strong>Diretora técnica responsável</strong>
 										<h4 class="designation">CRM 83.686</h4>
 										<span class="btn">Acesse o currículo <i class="fa fa-angle-right"></i></span>
 									</a>
 									<div class="curriculo" id="curriculo-1">
 										<h3 class="name">​​<strong>Dra. Renata Bastos Alves</strong>CRM 83.686</h3>
+										<strong class="sub-tit">Diretora técnica responsável</strong>
 										​​<p class="description">
 											<span><i class="fa fa-check" aria-hidden="true"></i>Graduação em Medicina pela Faculdade de Medicina da Fundação do ABC.</span>
 											<span><i class="fa fa-check" aria-hidden="true"></i>Residência Médica em Oftalmologia pela Faculdade de Medicina da Fundação do ABC.</span>
@@ -233,6 +235,35 @@
 								</div>
 							</div>
 							<!-- Item 2 Ends -->
+
+							<!-- Item 3 Begins -->
+							<div class="team-item">
+								<!-- Img -->
+								<a href="#curriculo-3" class="fancybox"><img src="<?php echo get_template_directory_uri(); ?>/images/1.png" width="370" height="225" alt="" class="img-responsive" /></a>
+								<!-- Team Member Details -->
+								<div class="team-content">
+									<a href="#curriculo-3" class="fancybox">
+										<h3 class="name">Dra. Daniella V. B. Fairbanks Barbosa</h3>
+										<h4 class="designation">CRM 81.774</h4>
+										<span class="btn">Acesse o currículo <i class="fa fa-angle-right"></i></span>
+									</a>
+									<div class="curriculo" id="curriculo-3">
+										<h3 class="name">​<strong>Dra. Daniella V. B. Fairbanks Barbosa</strong>CRM 81.774</h3>
+										<p class="description">
+											<span><i class="fa fa-check" aria-hidden="true"></i>Graduada em medicina pela Faculdade de Medicina do ABC.</span>
+											<span><i class="fa fa-check" aria-hidden="true"></i>Residência em Oftalmologia pela Faculdade de Medicina do ABC.</span>
+											<span><i class="fa fa-check" aria-hidden="true"></i>Título de Especialista pelo Conselho Brasileiro de Oftalmologia.</span>
+											<span><i class="fa fa-check" aria-hidden="true"></i>Especialização em Plástica Ocular, Catarata e Lente de Contato pela Faculdade de Medicina do ABC.</span>
+											<span><i class="fa fa-check" aria-hidden="true"></i>Especialização em Córnea e Doenças Externas pela Escola Paulista de Medicina – UNIFESP.</span>
+											<span><i class="fa fa-check" aria-hidden="true"></i>Médica assistente do setor de Córnea e Doenças Externas da Faculdade de Medicina do ABC e da Escola Paulista de Medicina.</span>
+											<span><i class="fa fa-check" aria-hidden="true"></i>Médica chefe de plantão do Pronto Socorro de Oftalmologia do Hospital Municipal de Santo André.</span>
+											<span><i class="fa fa-check" aria-hidden="true"></i>Médica chefe da equipe de Oftalmologia do Hospital São Luiz – Itaim.</span>
+										</p>
+									</div>
+								</div>
+							</div>
+							<!-- Item 3 Ends -->
+
 							<!-- Item 2 Begins -->
 							<div class="team-item">
 								<!-- Img -->
@@ -258,33 +289,7 @@
 								</div>
 							</div>
 							<!-- Item 2 Ends -->
-							<!-- Item 3 Begins -->
-							<div class="team-item">
-								<!-- Img -->
-								<a href="#curriculo-3" class="fancybox"><img src="<?php echo get_template_directory_uri(); ?>/images/1.png" width="370" height="225" alt="" class="img-responsive" /></a>
-								<!-- Team Member Details -->
-								<div class="team-content">
-									<a href="#curriculo-3" class="fancybox">
-										<h3 class="name">Dra. Daniella Villas Boas Fairbanks Barbosa</h3>
-										<h4 class="designation">CRM 81.774</h4>
-										<span class="btn">Acesse o currículo <i class="fa fa-angle-right"></i></span>
-									</a>
-									<div class="curriculo" id="curriculo-3">
-										<h3 class="name">​<strong>Dra. Daniella Villas Boas Fairbanks Barbosa</strong>CRM 81.774</h3>
-										<p class="description">
-											<span><i class="fa fa-check" aria-hidden="true"></i>Graduada em medicina pela Faculdade de Medicina do ABC.</span>
-											<span><i class="fa fa-check" aria-hidden="true"></i>Residência em Oftalmologia pela Faculdade de Medicina do ABC.</span>
-											<span><i class="fa fa-check" aria-hidden="true"></i>Título de Especialista pelo Conselho Brasileiro de Oftalmologia.</span>
-											<span><i class="fa fa-check" aria-hidden="true"></i>Especialização em Plástica Ocular, Catarata e Lente de Contato pela Faculdade de Medicina do ABC.</span>
-											<span><i class="fa fa-check" aria-hidden="true"></i>Especialização em Córnea e Doenças Externas pela Escola Paulista de Medicina – UNIFESP.</span>
-											<span><i class="fa fa-check" aria-hidden="true"></i>Médica assistente do setor de Córnea e Doenças Externas da Faculdade de Medicina do ABC e da Escola Paulista de Medicina.</span>
-											<span><i class="fa fa-check" aria-hidden="true"></i>Médica chefe de plantão do Pronto Socorro de Oftalmologia do Hospital Municipal de Santo André.</span>
-											<span><i class="fa fa-check" aria-hidden="true"></i>Médica chefe da equipe de Oftalmologia do Hospital São Luiz – Itaim.</span>
-										</p>
-									</div>
-								</div>
-							</div>
-							<!-- Item 3 Ends -->
+
 							<!-- Item 4 Begins -->
 							<div class="team-item">
 								<!-- Img -->
@@ -660,6 +665,115 @@
 
 
 
+<?php /* CIRURGIAS */ ?>
+<section id="cirurgias" class="team-section section slant-angle">
+	<!-- Slant Shape -->
+	<div class="slant-top-angle"></div>
+		<!-- Work With Us Top Content - Begins -->
+		<div class="container">
+			<div class="row">
+				<!-- your-work Info Begins -->
+				<div class="col-xs-12">
+					<!-- Title -->
+					<h2 class="section-title text-center animated" data-animation="fadeInRight" data-animation-delay="300">Cirurgias</h2>
+					<!-- Sub Title -->
+					<p class="sub-title text-center animated" data-animation="fadeInLeft" data-animation-delay="300">A clínica <strong>In Sight</strong> oferece as mais modernas técnicas cirúrgicas em oftalmologia, realizadas por profissionais especializados que fazem uso de equipamentos de última geração. Agende uma consulta e obtenha a melhor orientação para o seu caso.</p>
+				</div>
+				<!-- your-work Info Ends -->
+			</div>
+		</div>
+		<!-- Work With Us Top Content - Ends -->
+		<!-- Screenshot Carousel Begins -->
+		<div class="container slider-container">
+			<div class="row">
+				<div class="col-xs-12 animated" data-animation="fadeInUp" data-animation-delay="500">
+					<!-- Carousel Slider Container Begins -->
+					<div id="cirurgias-slider" class="team-carousel-slider">
+
+						<div class="team-item">
+							<!-- Img -->
+							<img src="<?php echo get_template_directory_uri(); ?>/images/cirurgia-de-retina.jpg" width="370" height="225" alt="" class="img-responsive" />
+							<!-- Team Member Details -->
+							<div class="team-content">
+								<h3 class="name">Cirurgia de retina</h3>
+								<p class="description">O tratamento de descolamento de retina envolve o reposicionamento da retina ao local de origem. Atualmente existem diversos métodos cirúrgicos para esta correção, como: laser, crioterapia, retinopexia com introflexão escleral, retinopexia pneumática e vitrectomia. Após a realização de todos os exames, caberá ao oftalmologista decidir a melhor técnica a ser aplicada em seu paciente.</p>
+							</div>
+						</div>
+
+						<div class="team-item">
+							<!-- Img -->
+							<img src="<?php echo get_template_directory_uri(); ?>/images/cirurgia-de-catarata.jpg" width="370" height="225" alt="" class="img-responsive" />
+							<!-- Team Member Details -->
+							<div class="team-content">
+								<h3 class="name">Cirurgia da Catarata</h3>
+								<p class="description"><strong>Facoemulsificação com Implante de Lente Intraocular</strong></p>
+								<p class="description">A catarata é a opacificação da lente que possuímos dentro do olho (cristalino). O seu tratamento é sempre cirúrgico e a técnica mais moderna consiste na emulsificação da lente através do aparelho (ultra-som), aspiração da mesma e implante de uma lente intraocular.</p>
+							</div>
+						</div>
+
+
+						<!-- Item 2 Begins -->
+						<div class="team-item">
+							<!-- Img -->
+							<img src="<?php echo get_template_directory_uri(); ?>/images/lasik.jpg" width="370" height="225" alt="" class="img-responsive" />
+							<!-- Team Member Details -->
+							<div class="team-content">
+								<h3 class="name">Cirurgia de miopia, hipermetropia e astigmatismo</h3>
+								<p class="description"><strong>Miopia, hipermetropia e astigmatismo</strong></p>
+								<p class="description">A cirurgia oftalmológica por laser é uma das mais importantes contribuições para a oftalmologia. A técnica consiste na separação das camadas corneanas para posterior fotoblação e tem como vantagem uma recuperação visual precoce, garantindo uma boa visão no dia seguinte a cirurgia.</p>
+							</div>
+						</div>
+
+						<div class="team-item">
+							<!-- Img -->
+							<img src="<?php echo get_template_directory_uri(); ?>/images/cirurgia-de-cornea.jpg" width="370" height="225" alt="" class="img-responsive" />
+							<!-- Team Member Details -->
+							<div class="team-content">
+								<h3 class="name">Transplante de Córnea</h3>
+								<p class="description">Indicado quando a córnea se opacifica ou então se torna irregular, levando a uma baixa importante da visão. Consiste na troca da córnea doente por outra de um doador.</p>
+							</div>
+						</div>
+
+						<div class="team-item">
+							<!-- Img -->
+							<img src="<?php echo get_template_directory_uri(); ?>/images/lentes-intraoculares.jpg" width="370" height="225" alt="" class="img-responsive" />
+							<!-- Team Member Details -->
+							<div class="team-content">
+								<h3 class="name">Lentes Intraoculares para Correção de Altos Graus</h3>
+								<p class="description">Indicado para os pacientes que possuem altos graus de miopia ou hipermetropia e não podem ser operados através da cirurgia a laser.</p>
+							</div>
+						</div>
+
+						<div class="team-item">
+							<!-- Img -->
+							<img src="<?php echo get_template_directory_uri(); ?>/images/blefaroplastia.jpg" width="370" height="225" alt="" class="img-responsive" />
+							<!-- Team Member Details -->
+							<div class="team-content">
+								<h3 class="name">Cirurgia plástica das pálpebras – Blefaroplastia</h3>
+								<p class="description">Consiste na retirada de “sobra” de pele das pálpebras superiores e/ou inferiores, que é causada pela flacidez dos tecidos. Pode ser combinada com essa técnica a retirada das “bolsas” de gordura da região, se houver necessidade. A cirurgia é realizada com anestesia local, deixando uma cicatriz praticamente imperceptível.</p>
+							</div>
+						</div>
+
+						<div class="team-item">
+							<!-- Img -->
+							<img src="<?php echo get_template_directory_uri(); ?>/images/correção-de-estrabismo.jpg" width="370" height="225" alt="" class="img-responsive" />
+							<!-- Team Member Details -->
+							<div class="team-content">
+								<h3 class="name">Correção de Estrabismo</h3>
+								<p class="description">Consiste no enfraquecimento ou fortalecimento do(s) músculo(s) ocular(es), para que seja retomado o alinhamento dos olhos. Em crianças é usada a anestesia geral, porém em adultos pode ser realizada apenas com o uso de colírios anestésicos. A recuperação é rápida e os resultados são bastante satisfatórios.</p>
+							</div>
+						</div>
+					</div>
+					<!-- Carousel Slider Container Ends -->
+					<div class="scrolling text-center"><span>Move to scrolling</span></div>
+				</div>
+			</div>
+		</div>
+		<!-- Screenshot Carousel Ends -->
+	<!-- Slant Shape -->
+</section>
+
+
 <?php /* DOENÇAS */ ?>
 <section id="doencas" class="team-section section slant-angle">
 	<!-- Slant Shape -->
@@ -837,108 +951,6 @@
 	<!-- Slant Shape -->
 	<div class="slant-bottom-angle"></div>
 </section>
-
-
-
-
-<?php /* CIRURGIAS */ ?>
-<section id="cirurgias" class="team-section section slant-angle">
-	<!-- Slant Shape -->
-	<div class="slant-top-angle"></div>
-		<!-- Work With Us Top Content - Begins -->
-		<div class="container">
-			<div class="row">
-				<!-- your-work Info Begins -->
-				<div class="col-xs-12">
-					<!-- Title -->
-					<h2 class="section-title text-center animated" data-animation="fadeInRight" data-animation-delay="300">Cirurgias</h2>
-					<!-- Sub Title -->
-					<p class="sub-title text-center animated" data-animation="fadeInLeft" data-animation-delay="300">A clínica <strong>In Sight</strong> oferece as mais modernas técnicas cirúrgicas em oftalmologia, realizadas por profissionais especializados que fazem uso de equipamentos de última geração. Agende uma consulta e obtenha a melhor orientação para o seu caso.</p>
-				</div>
-				<!-- your-work Info Ends -->
-			</div>
-		</div>
-		<!-- Work With Us Top Content - Ends -->
-		<!-- Screenshot Carousel Begins -->
-		<div class="container slider-container">
-			<div class="row">
-				<div class="col-xs-12 animated" data-animation="fadeInUp" data-animation-delay="500">
-					<!-- Carousel Slider Container Begins -->
-					<div id="cirurgias-slider" class="team-carousel-slider">
-						<!-- Item 2 Begins -->
-						<div class="team-item">
-							<!-- Img -->
-							<img src="<?php echo get_template_directory_uri(); ?>/images/lasik.jpg" width="370" height="225" alt="" class="img-responsive" />
-							<!-- Team Member Details -->
-							<div class="team-content">
-								<h3 class="name">Lasik</h3>
-								<p class="description"><strong>Miopia, hipermetropia e astigmatismo</strong></p>
-								<p class="description">O Lasik é a principal técnica para cirurgias de miopia, astigmatismo e hipermetropia a laser. A técnica consiste na separação das camadas corneanas para posterior fotoblação pelo laser e tem como vantagem uma recuperação visual precoce, garantindo uma boa visão no dia seguinte a cirurgia.</p>
-							</div>
-						</div>
-
-						<div class="team-item">
-							<!-- Img -->
-							<img src="<?php echo get_template_directory_uri(); ?>/images/cirurgia-de-catarata.jpg" width="370" height="225" alt="" class="img-responsive" />
-							<!-- Team Member Details -->
-							<div class="team-content">
-								<h3 class="name">Cirurgia da Catarata</h3>
-								<p class="description"><strong>Facoemulsificação com Implante de Lente Intraocular</strong></p>
-								<p class="description">A catarata é a opacificação da lente que possuímos dentro do olho (cristalino). O seu tratamento é sempre cirúrgico e a técnica mais moderna consiste na emulsificação da lente através do aparelho (ultra-som), aspiração da mesma e implante de uma lente intraocular.</p>
-							</div>
-						</div>
-
-						<div class="team-item">
-							<!-- Img -->
-							<img src="<?php echo get_template_directory_uri(); ?>/images/cirurgia-de-cornea.jpg" width="370" height="225" alt="" class="img-responsive" />
-							<!-- Team Member Details -->
-							<div class="team-content">
-								<h3 class="name">Transplante de Córnea</h3>
-								<p class="description">Indicado quando a córnea se opacifica ou então se torna irregular, levando a uma baixa importante da visão. Consiste na troca da córnea doente por outra de um doador.</p>
-							</div>
-						</div>
-
-						<div class="team-item">
-							<!-- Img -->
-							<img src="<?php echo get_template_directory_uri(); ?>/images/lentes-intraoculares.jpg" width="370" height="225" alt="" class="img-responsive" />
-							<!-- Team Member Details -->
-							<div class="team-content">
-								<h3 class="name">Lentes Intraoculares para Correção de Altos Graus</h3>
-								<p class="description">Indicado para os pacientes que possuem altos graus de miopia ou hipermetropia e não podem ser operados através da cirurgia a laser.</p>
-							</div>
-						</div>
-
-						<div class="team-item">
-							<!-- Img -->
-							<img src="<?php echo get_template_directory_uri(); ?>/images/blefaroplastia.jpg" width="370" height="225" alt="" class="img-responsive" />
-							<!-- Team Member Details -->
-							<div class="team-content">
-								<h3 class="name">Blefaroplastia</h3>
-								<p class="description">Consiste na retirada de “sobra” de pele das pálpebras superiores e/ou inferiores, que é causada pela flacidez dos tecidos. Pode ser combinada com essa técnica a retirada das “bolsas” de gordura da região, se houver necessidade. A cirurgia é realizada com anestesia local, deixando uma cicatriz praticamente imperceptível.</p>
-							</div>
-						</div>
-
-						<div class="team-item">
-							<!-- Img -->
-							<img src="<?php echo get_template_directory_uri(); ?>/images/correção-de-estrabismo.jpg" width="370" height="225" alt="" class="img-responsive" />
-							<!-- Team Member Details -->
-							<div class="team-content">
-								<h3 class="name">Correção de Estrabismo</h3>
-								<p class="description">Consiste no enfraquecimento ou fortalecimento do(s) músculo(s) ocular(es), para que seja retomado o alinhamento dos olhos. Em crianças é usada a anestesia geral, porém em adultos pode ser realizada apenas com o uso de colírios anestésicos. A recuperação é rápida e os resultados são bastante satisfatórios.</p>
-							</div>
-						</div>
-					</div>
-					<!-- Carousel Slider Container Ends -->
-					<div class="scrolling text-center"><span>Move to scrolling</span></div>
-				</div>
-			</div>
-		</div>
-		<!-- Screenshot Carousel Ends -->
-	<!-- Slant Shape -->
-</section>
-
-
-
 
 
 <?php /* BLOG */ ?>
@@ -1248,6 +1260,7 @@
 				<h2 class="section-title text-center animated" data-animation="fadeInRight" data-animation-delay="300">Contato</h2>
 				<!-- Sub Title -->
 				<p class="sub-title text-center animated" data-animation="fadeInLeft" data-animation-delay="300">A <strong>In Sight Oftalmologia</strong> reservou este espaço para falar com você. Preencha o formulário, suas dúvidas ou sugestões serão muito bem-vindas.</p>
+				<p class="sub-title text-center animated">Tel. (11) 3160-1800</p>
 			</div>
 		</div>
 		<!-- Contact Box -->

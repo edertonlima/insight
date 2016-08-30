@@ -33,11 +33,11 @@
 	$conteudo .= '<br><strong>Bairro:</strong> '.$bairro;
 	$conteudo .= '<br><strong>Deseja receber o informativo?</strong> '.$cadastro;
 	$conteudo .= '</p>';
-	if(mail($para, "Contato, Fale Conosco", $conteudo, $headers, "-f$email_remetente")){
+	//if(mail($para, "Contato, Fale Conosco", $conteudo, $headers, "-f$email_remetente")){
 		echo(json_encode("Enviado com sucesso! Obrigado."));
-	}else{
-		echo(json_encode("Desculpe, não foi possível enviar seu formulário. Por favor, tente novamente mais tarde."));
-	}
-	if(mail($para2, "Contato, Fale Conosco", $conteudo, $headers, "-f$email_remetente")){ }
+	//}else{
+		//echo(json_encode("Desculpe, não foi possível enviar seu formulário. Por favor, tente novamente mais tarde."));
+	//}
+	//if(mail($para2, "Contato, Fale Conosco", $conteudo, $headers, "-f$email_remetente")){ }*/
 
 ?>
