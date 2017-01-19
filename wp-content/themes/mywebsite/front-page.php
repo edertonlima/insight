@@ -6,7 +6,7 @@
 <meta charset="utf-8">
 <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/images/favicon.ico" type="image/x-icon">
 <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/images/favicon.ico" type="image/x-icon">
-<title>Desirable-home</title>
+<title>In Sight Oftalmologia</title>
 <!-- Title and Meta Tags Ends -->
 <!-- Google Font Begins -->
 <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
@@ -60,7 +60,9 @@
 							</li>
 							*/ ?>
 							<!--<li> <a href="mailto:email@example.com"> <i class="flaticon-black164"></i> info@yoursite.com </a> </li>-->
-							<li> <a href="#"> <i class="flaticon-phone46"></i> +55 (11) 3160-1800 </a> </li>
+							<?php if(get_field('telefone', 'option') != ""){ ?>
+								<li> <a href="#"> <i class="flaticon-phone46"></i> <?php the_field('telefone', 'option') ?> </a> </li>
+							<?php } ?>
 						</ul>
 						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-3"> <i class="flaticon-list50"></i> </button>
 					</div>
@@ -112,7 +114,7 @@
 							<!--<li><a href="#features-section" class="scroll">Features</a></li>-->
 							<li><a href="#cirurgias" class="scroll" title="Cirurgias">Cirurgias</a></li>
 							<li><a href="#doencas" class="scroll" title="Doenças">Doenças</a></li>
-							<li><a href="#blog" class="scroll">Blog</a></li>
+							<li><a href="<?php echo get_home_url(); ?>/category/blog" class="scroll">Blog</a></li>
 							<li><a href="#contato" class="scroll">Contato</a></li>
 						</ul>
 					</div>
@@ -136,7 +138,50 @@
 		<!-- Wrapper for slides -->
 		
 			<div class="carousel-inner">
-				<div class="item active">
+
+				<?php
+
+				// check if the repeater field has rows of data
+				if( have_rows('slide', 'option') ):
+
+				 	$i = 0;
+				    while ( have_rows('slide', 'option') ) : the_row(); 
+				    	$i = $i+1; ?>
+						
+						<?php if(get_sub_field('imagem')) { ?>
+							<div class="item<?php if($i == 1){ echo ' active'; } ?>">
+								<div class="row">
+									<div class="col-md-offset-2 carousel-caption">
+										<?php if(get_sub_field('titulo')) { ?>
+											<h1><?php the_sub_field('titulo') ?></h1>
+										<?php } ?>
+
+										<?php if(get_sub_field('texto')) { ?>
+											<p><?php the_sub_field('texto') ?></p>
+										<?php } ?>
+
+										<?php if(get_sub_field('link')) { ?>
+											<a href="<?php the_sub_field('link') ?>" class="scroll" title="<?php the_sub_field('texto_do_botão') ?>"><div class="btn"><?php the_sub_field('texto_do_botão') ?></div></a>
+										<?php } ?>
+									</div>
+									<div class="col-md-12">
+										<img src="<?php the_sub_field('imagem'); ?>" class="img-responsive"  alt="<?php the_sub_field('titulo') ?>">
+									</div>
+								</div>
+							</div>
+						<?php } ?>
+
+				    <?php endwhile;
+
+				else :
+
+				    // no rows found
+
+				endif;
+
+				?>
+
+				<!--<div class="item active">
 					<div class="row">
 						<div class="col-md-offset-2 carousel-caption">
 							<h1>Equipe preparada para cuidar da sua visão</h1>
@@ -165,7 +210,7 @@
 						</div>
 						<div class="col-md-12"> <img src="<?php echo get_template_directory_uri(); ?>/images/image003.jpg"  class="img-responsive" alt="slider-1"> </div>
 					</div>
-				</div>
+				</div>-->
 			</div>
 		
 		<!-- Controls -->
@@ -227,7 +272,7 @@
 											<span><i class="fa fa-check" aria-hidden="true"></i>Especialista em Oftalmologia pelo Conselho Brasileiro de Oftalmologia.</span>
 											<span><i class="fa fa-check" aria-hidden="true"></i>Membro da AAPOS (American Association for Pediatric Ophthalmology and Strabismus).</span>
 											<span><i class="fa fa-check" aria-hidden="true"></i>Membro do CBE (Conselho Brasileiro de Estrabismo).</span>
-											<span><i class="fa fa-check" aria-hidden="true"></i>Sócia proprietária da INSIGHT Oftalmologia (São Paulo).</span>
+											<span><i class="fa fa-check" aria-hidden="true"></i>Diretora técnica da In Sight Oftalmologia.</span>
 											<span><i class="fa fa-check" aria-hidden="true"></i>Sócia proprietária da CAMO Oftalmologia (ABC).</span>
 											<span><i class="fa fa-check" aria-hidden="true"></i>Chefe do serviço de Oftalmologia do HOSPITAL AMÉRICA (ABC).</span>
 										</p>
@@ -243,7 +288,7 @@
 								<!-- Team Member Details -->
 								<div class="team-content">
 									<a href="#curriculo-3" class="fancybox">
-										<h3 class="name">Dra. Daniella V. B. Fairbanks Barbosa</h3>
+										<h3 class="name">Dra. Daniella Fairbanks</h3>
 										<h4 class="designation">CRM 81.774</h4>
 										<span class="btn">Acesse o currículo <i class="fa fa-angle-right"></i></span>
 									</a>
@@ -605,7 +650,7 @@
 						<p class="feature-content"><i class="fa fa-check" aria-hidden="true"></i>Cirurgia refrativa com Femtosecond Laser - miopia, ​hipermetropia e astigmatismo</p>
 						<p class="feature-content"><i class="fa fa-check" aria-hidden="true"></i>Cirurgia de Catarata com implante de lentes multifocais</p>
 						<p class="feature-content"><i class="fa fa-check" aria-hidden="true"></i>Implantes de lentes Intraoculares para correção de altos graus de miopia e hipermetropia</p>
-						<p class="feature-content"><i class="fa fa-check" aria-hidden="true"></i>Córnea: transplante de córnea e de ​membrana amniótica</p>
+						<?php /*<p class="feature-content"><i class="fa fa-check" aria-hidden="true"></i>Córnea: transplante de córnea e de ​membrana amniótica</p>*/ ?>
 						<p class="feature-content"><i class="fa fa-check" aria-hidden="true"></i>Glaucoma</p>
 						<p class="feature-content"><i class="fa fa-check" aria-hidden="true"></i>Estrabismo</p>
 						<p class="feature-content"><i class="fa fa-check" aria-hidden="true"></i>Cirurgia plástica ocular</p>
@@ -634,6 +679,7 @@
 						<p class="feature-content"><i class="fa fa-check" aria-hidden="true"></i>Gonioscopia</p>
 						<p class="feature-content"><i class="fa fa-check" aria-hidden="true"></i>Teste de motilidade extrínsica ocular</p>
 						<p class="feature-content"><i class="fa fa-check" aria-hidden="true"></i>Teste Ortóptico</p>
+						<p class="feature-content"><i class="fa fa-check" aria-hidden="true"></i>OTC - Tomografia de coerência óptica</p>
 					</div>
 				</div>
 			</div>
@@ -724,6 +770,7 @@
 							</div>
 						</div>
 
+						<?php /*
 						<div class="team-item">
 							<!-- Img -->
 							<img src="<?php echo get_template_directory_uri(); ?>/images/cirurgia-de-cornea.jpg" width="370" height="225" alt="" class="img-responsive" />
@@ -733,6 +780,7 @@
 								<p class="description">Indicado quando a córnea se opacifica ou então se torna irregular, levando a uma baixa importante da visão. Consiste na troca da córnea doente por outra de um doador.</p>
 							</div>
 						</div>
+						*/ ?>
 
 						<div class="team-item">
 							<!-- Img -->
@@ -883,7 +931,7 @@
 							<div class="team-content">
 								<h3 class="name">​Estrabismo</h3>
 								<p class="description"><strong>F​alha no foco da visão</strong></p>
-								<p class="description">​Caracteriza-se por uma perda no alinhamento ocular e pode ser: <br>- Convergente: olhos voltados para dentro.<br>- Divergente: olhos voltados para fora.<br>- Vertical: olhos voltados para cima ou para baixo.</p>
+								<p class="description">​Perda no alinhamento ocular e pode ser: <br>- Convergente: olhos voltados para dentro.<br>- Divergente: olhos voltados para fora.<br>- Vertical: olhos voltados para cima ou para baixo.</p>
 							</div>
 						</div>
 
@@ -974,77 +1022,44 @@
 			<div class="col-xs-12 animated" data-animation="fadeInUp" data-animation-delay="500">
 				<!-- Carousel Slider Container Begins -->
 				<div id="blog-slider" class="blog-carousel-slider">
-					<!-- Item 2 Begins -->
-					<div class="blog-item">
-						<!-- Img -->
-						<div class="blog-pic">
-							<img src="<?php echo get_template_directory_uri(); ?>/images/cirurgia-de-catarata.jpg" class="img-responsive" alt="" />							
-							<div class="date">
-								<h3>04</h3>
-								<p>Nov</p>
+					
+			       <?php
+			        $getBlog = array(
+			            'post_type' => 'post',
+			            'post_status' => 'any',
+			            'orderby'           => date,
+			            'posts_per_page'         => '20',
+			            'order'             => 'DESC'
+			        ); 
+					
+					$blog = new WP_Query( $getBlog );
+
+					while($blog->have_posts()) : $blog->the_post();
+					    $capa = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'medium' ); 
+
+					    if($capa[0]){ ?>
+
+							<div class="blog-item">
+								<!-- Img -->
+								<div class="blog-pic">
+									<img src="<?php echo $capa[0]; ?>" class="img-responsive" alt="" />							
+									<div class="date">
+										<h3><?php the_time('d'); ?></h3>
+										<p><?php the_time('M'); ?></p>
+									</div>
+								</div>
+								<!-- Team Member Details -->
+								<div class="blog-content">
+									<h3 class="color-white"><?php the_title(); ?></h3>
+									<p><?php the_field('resumo'); ?></p>
+									<a href="<?php echo get_permalink(); ?>">Saiba mais <i class="fa fa-angle-right"></i></a>
+								</div>
 							</div>
-						</div>
-						<!-- Team Member Details -->
-						<div class="blog-content">
-							<h3 class="color-white">Algumas pessoas têm o hábito de dormir com as lentes de contato</h3>
-							<p>Ao dormir, os olhos fechados não promovem essa lubrificação, causando uma certa secura. O que acontece então é que aumenta a adesão das lentes de contato.</p>
-							<a href="javascript:">Saiba mais <i class="fa fa-angle-right"></i></a>
-						</div>
-					</div>
-					<!-- Item 2 Ends -->
-					<!-- Item 2 Begins -->
-					<div class="blog-item">
-						<!-- Img -->
-						<div class="blog-pic">
-							<img src="<?php echo get_template_directory_uri(); ?>/images/ceratocone.jpg" class="img-responsive" alt="" />
-							<div class="date">
-								<h3>02</h3>
-								<p>Nov</p>
-							</div>
-						</div>
-						<!-- Team Member Details -->
-						<div class="blog-content">
-							<h3 class="color-white">Algumas pessoas têm o hábito de dormir com as lentes de contato</h3>
-							<p>Ao dormir, os olhos fechados não promovem essa lubrificação, causando uma certa secura. O que acontece então é que aumenta a adesão das lentes de contato.</p>
-							<a href="javascript:">Saiba mais <i class="fa fa-angle-right"></i></a>
-						</div>
-					</div>
-					<!-- Item 2 Ends -->
-					<!-- Item 3 Begins -->
-					<div class="blog-item">
-						<!-- Img -->
-						<div class="blog-pic">
-							<img src="<?php echo get_template_directory_uri(); ?>/images/blefaroplastia.jpg" class="img-responsive" alt="" />
-							<div class="date">
-								<h3>29</h3>
-								<p>Nov</p>
-							</div>
-						</div>
-						<!-- Team Member Details -->
-						<div class="blog-content">
-							<h3 class="color-white">Algumas pessoas têm o hábito de dormir com as lentes de contato</h3>
-							<p>Ao dormir, os olhos fechados não promovem essa lubrificação, causando uma certa secura. O que acontece então é que aumenta a adesão das lentes de contato.</p>
-							<a href="javascript:">Saiba mais <i class="fa fa-angle-right"></i></a>
-						</div>
-					</div>
-					<!-- Item 3 Ends -->
-					<div class="blog-item">
-						<!-- Img -->
-						<div class="blog-pic">
-							<img src="<?php echo get_template_directory_uri(); ?>/images/estrabismo.jpg" class="img-responsive" alt="" />
-							<div class="date">
-								<h3>29</h3>
-								<p>Nov</p>
-							</div>
-						</div>
-						<!-- Team Member Details -->
-						<div class="blog-content">
-							<h3 class="color-white">Algumas pessoas têm o hábito de dormir com as lentes de contato</h3>
-							<p>Ao dormir, os olhos fechados não promovem essa lubrificação, causando uma certa secura. O que acontece então é que aumenta a adesão das lentes de contato.</p>
-							<a href="javascript:">Saiba mais <i class="fa fa-angle-right"></i></a>
-						</div>
-					</div>
-					<!-- Item 3 Ends -->
+
+					<?php 
+						}
+					endwhile; ?>
+
 				</div>
 				<!-- Carousel Slider Container Ends -->
 				<div class="scrolling text-center"><span>Move to scrolling</span></div>
@@ -1260,7 +1275,7 @@
 				<h2 class="section-title text-center animated" data-animation="fadeInRight" data-animation-delay="300">Contato</h2>
 				<!-- Sub Title -->
 				<p class="sub-title text-center animated" data-animation="fadeInLeft" data-animation-delay="300">A <strong>In Sight Oftalmologia</strong> reservou este espaço para falar com você. Preencha o formulário, suas dúvidas ou sugestões serão muito bem-vindas.</p>
-				<p class="sub-title text-center animated">Tel. (11) 3160-1800</p>
+				<p class="sub-title text-center animated" style="color: #16b6ea;">Tel. (11) 3160-1800</p>
 			</div>
 		</div>
 		<!-- Contact Box -->
@@ -1322,7 +1337,9 @@
 						<li>Rua Domingos Fernandes, 144</li>
 						<li>Vila Nova Conceição</li>
 						<li>São Paulo - SP</li>
-						<li>Tel. (11) 3160-1800</li>
+						<?php if(get_field('telefone', 'option') != ""){ ?>
+							<li style="color: #16b6ea;"> <?php the_field('telefone', 'option') ?></li>
+						<?php } ?>
 					</ul>
 				</div>
 				<!-- Item 3 -->
@@ -1330,10 +1347,24 @@
 					<!-- Title -->
 					<h3>Últimas publicações</h3>
 					<ul>
-						<li><a href="javascript:">Algumas pessoas têm o hábito de dormir</a></li>
-						<li><a href="javascript:">Algumas pessoas têm o hábito de dormir</a></li>
-						<li><a href="javascript:">Algumas pessoas têm o hábito de dormir</a></li>
-						<li><a href="javascript:">Algumas pessoas têm o hábito de dormir</a></li>
+
+				       <?php
+				        $getBlog = array(
+				            'post_type' => 'post',
+				            'post_status' => 'any',
+				            'orderby'           => date,
+				            'order'             => 'DESC',
+				            'posts_per_page'         => '4',
+				        ); 
+						
+						$blog = new WP_Query( $getBlog );
+
+						while($blog->have_posts()) : $blog->the_post(); ?>
+
+							<li><a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a></li>
+
+						<?php endwhile; ?>
+
 					</ul>
 				</div>
 				<!-- Item 4 -->
@@ -1360,10 +1391,10 @@
 					</script>
 
 
-					<div class="fb-page" data-href="https://www.facebook.com/Insight-Oftalmologia-636534666383144" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="false" style="margin-top: 22px;">
+					<div class="fb-page" data-href="https://www.facebook.com/insightoftalmologia" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="false" style="margin-top: 22px;">
 						<div class="fb-xfbml-parse-ignore">
-							<blockquote cite="https://www.facebook.com/Insight-Oftalmologia-636534666383144">
-								<a href="https://www.facebook.com/Insight-Oftalmologia-636534666383144">In Sight Oftalmologia</a>
+							<blockquote cite="https://www.facebook.com/insightoftalmologia">
+								<a href="https://www.facebook.com/insightoftalmologia">In Sight Oftalmologia</a>
 							</blockquote>
 						</div>
 					</div>

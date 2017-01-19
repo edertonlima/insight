@@ -15,10 +15,6 @@
 	add_filter('show_admin_bar', '__return_false');
 
 
-
-
-
-
 	// MENUS
 	add_action( 'after_setup_theme', 'register_menu' );
 	function register_menu() {
@@ -28,8 +24,81 @@
 	// Add Excerpt to pages
  	add_post_type_support( 'page', 'excerpt' );
 
+	add_action('init', 'add_excerpt');
+	function add_excerpt(){
+		add_post_type_support('post', 'excerpt');
+	}
 
 
+	add_action('admin_head', 'my_custom_fonts');
+	function my_custom_fonts() {
+	  echo '<style>
+	  	/* CATEGORIAS */
+	  	#menu-posts .wp-submenu li:nth-child(4),
+	  	#category-adder {
+			display: none;
+		}
+		#menu-media, #menu-comments, #menu-appearance, #menu-plugins, #menu-tools, #menu-settings, #toplevel_page_edit-post_type-acf, #toplevel_page_edit-post_type-acf-field-group, #menu-pages, #categorydiv, #tagsdiv-post_tag {
+			display: none;
+		}
+	  </style>';
+	}
+
+if( function_exists('acf_add_options_page') ) {
+	
+	acf_add_options_page(array(
+		'page_title' 	=> 'Slide Home',
+		'menu_title'	=> 'Slide Home',
+		'menu_slug' 	=> 'slide-home',
+		'capability'	=> 'edit_posts',
+		'redirect'		=> false,
+		'icon_url' 		=> 'dashicons-admin-collapse'
+	));
+
+	acf_add_options_page(array(
+		'page_title' 	=> 'Configurações',
+		'menu_title'	=> 'Configurações',
+		'menu_slug' 	=> 'configuracoes',
+		'capability'	=> 'edit_posts',
+		'redirect'		=> false,
+		'icon_url' => false
+	));
+	
+}
+
+function paginacao() {
+    global $wp_query;
+    $big = 999999999; // need an unlikely integer
+    $pages = paginate_links( array(
+            'base' => str_replace( $big, '%#%', esc_url( get_pagenum_link( $big ) ) ),
+            'format' => '?paged=%#%',
+            'current' => max( 1, get_query_var('paged') ),
+            'total' => $wp_query->max_num_pages,
+            'prev_next' => false,
+            'type'  => 'array',
+            'prev_next'   => TRUE,
+			'prev_text'    => __('<i class="fa fa-2x fa-angle-left"></i>'),
+			'next_text'    => __('<i class="fa fa-2x fa-angle-right"></i>'),
+        ) );
+        if( is_array( $pages ) ) {
+            $paged = ( get_query_var('paged') == 0 ) ? 1 : get_query_var('paged');
+            echo '<ul class="pagination">';
+            foreach ( $pages as $page ) {
+                    echo "<li>$page</li>";
+            }
+           echo '</ul>';
+        }
+}
+
+function wpse10691_alter_query( $query )
+{
+    if ( $query->is_main_query() && ( $query->is_home() || $query->is_search() || $query->is_archive() )  )
+    {
+        $query->set( 'orderby', 'date' );
+        $query->set( 'order', 'desc' );
+    }
+}
+add_action( 'pre_get_posts', 'wpse10691_alter_query' );
 
 
 	/* VIDEO *

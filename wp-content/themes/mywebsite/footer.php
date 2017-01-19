@@ -2,7 +2,7 @@
 /**
  * @package WordPress
  * @subpackage My Web
- * @since My web Site 1.0
+ * @since My web Site 1.0 
  **
  */
 ?>
