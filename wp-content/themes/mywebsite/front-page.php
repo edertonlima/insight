@@ -114,7 +114,7 @@
 							<!--<li><a href="#features-section" class="scroll">Features</a></li>-->
 							<li><a href="#cirurgias" class="scroll" title="Cirurgias">Cirurgias</a></li>
 							<li><a href="#doencas" class="scroll" title="Doenças">Doenças</a></li>
-							<li><a href="<?php echo get_home_url(); ?>/category/blog" class="scroll">Blog</a></li>
+							<li><a href="<?php echo get_home_url(); ?>/blog" class="scroll">Blog</a></li>
 							<li><a href="#contato" class="scroll">Contato</a></li>
 						</ul>
 					</div>
