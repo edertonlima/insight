@@ -114,7 +114,7 @@
 							<!--<li><a href="#features-section" class="scroll">Features</a></li>-->
 							<li><a href="#cirurgias" class="scroll" title="Cirurgias">Cirurgias</a></li>
 							<li><a href="#doencas" class="scroll" title="Doenças">Doenças</a></li>
-							<li><a href="<?php echo get_home_url(); ?>/blog" class="scroll">Blog</a></li>
+							<li><a href="<?php echo get_home_url(); ?>/page/blog" class="scroll">Blog</a></li>
 							<li><a href="#contato" class="scroll">Contato</a></li>
 						</ul>
 					</div>
@@ -366,7 +366,7 @@
 							<!-- Item 4 Ends -->
 						</div>
 						<!-- Carousel Slider Container Ends -->
-						<div class="scrolling text-center"><span>Move to scrolling</span></div>
+						<div class="scrolling text-center"><span>Mova para o lado</span></div>
 					</div>
 				</div>
 			</div>
@@ -813,7 +813,7 @@
 						</div>
 					</div>
 					<!-- Carousel Slider Container Ends -->
-					<div class="scrolling text-center"><span>Move to scrolling</span></div>
+					<div class="scrolling text-center"><span>Mova para o lado</span></div>
 				</div>
 			</div>
 		</div>
@@ -991,7 +991,7 @@
 						</div>
 					</div>
 					<!-- Carousel Slider Container Ends -->
-					<div class="scrolling text-center"><span>Move to scrolling</span></div>
+					<div class="scrolling text-center"><span>Mova para o lado</span></div>
 				</div>
 			</div>
 		</div>
@@ -1062,7 +1062,7 @@
 
 				</div>
 				<!-- Carousel Slider Container Ends -->
-				<div class="scrolling text-center"><span>Move to scrolling</span></div>
+				<div class="scrolling text-center"><span>Mova para o lado</span></div>
 			</div>
 		</div>
 	</div>
